@@ -1,0 +1,19 @@
+- name: Home
+  length: short
+  link: /
+
+- name: Skyblock
+  length: short
+  link: /skyblock.html
+
+- name: Project Directory
+  length: long
+  link: /directory.html
+
+- name: Interesting Sites
+  ength: long
+  link: /interesting_sites.html
+
+- name: About
+  length: short
+  link: /about.html
