@@ -1,0 +1,16 @@
+<nav>
+    {% for item in site.data.navigation %}
+        <a href="{{ item.link }}"
+        {% if page.url == item.link %}id="button_current"{% endif %}
+        class={{ item.length }}>
+            <div id="prism">
+                <div id="one" class="side">{{ item.name }}</div>
+                <div id="two" class="side"></div>
+                <div id="three" class="side">{{ item.name }}</div>
+                <div id="four" class="side"></div>
+                <div id="five" class="side">{{ item.name }}</div>
+                <div id="six" class="side">{{ item.name }}</div>
+            </div>
+        </a>
+    {% endfor %}
+</nav>

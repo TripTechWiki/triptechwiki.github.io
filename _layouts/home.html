@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+
+        <!-- Link to Stylesheet -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- Links to Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        {% include sidebar.html %}
+        
+        <article>
+            {{ content }}
+        </article>
+    </body>
+</html>
