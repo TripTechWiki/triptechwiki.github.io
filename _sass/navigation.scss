@@ -1,5 +1,5 @@
 /* The current page button can look different than the others */
-nav #button_current #one{
+nav #button_current #front{
     background: #d83434;
     color: #33ff00;
 }
@@ -30,15 +30,18 @@ nav #prism{
 
     transform-style: preserve-3d;
 
-    transition: 0.5s;
+    transition: 1s;
 }
-/* Different buttons need different line heights to keep them centered */
+/* Different buttons need different line heights to keep them centered
+    (A button can have 1 or 2 lines)*/
 nav .short{
     line-height: 6vh;
 }
 nav .long{
     line-height: 3vh;
 }
+
+/*Default formatting for all sides of the boxes*/
 nav .side{
     position: absolute;
 
@@ -51,38 +54,43 @@ nav .side{
     right: 0;
     bottom: 0;
     margin: auto;
+    border-radius: 2vh;
 
     color: rgba(0, 0, 0, 0);
 
-    transition: 0.5s;
+    transition: 1s;
 }
 
 /* Setup everything so that its ready to move */
-nav #one{
+nav #front{
     z-index: 1;
 
     color: #0000ee;
     background: #888888;
-
-    border-radius: 2vh;
 }
-nav #two{
+nav #left{
+    transform: translateX(-5vh) rotateY(-180deg);
     width: 40%;
 }
-nav #four{
-    transform: rotateY(180deg);
+nav #top{
+    transform: rotateX(180deg);
+}
+nav #right{
+    transform: translateX(5vh) rotateY(180deg);
     width: 40%;
 }
-nav #five{
+nav #bottom{
     transform: rotateY(180deg);
 }
-nav #six{
+nav #back{
     transform: rotateY(180deg);
 }
 
 /* Move everything when hovered */
 nav #prism:hover{
-    transform: rotateX(-20deg) rotateY(20deg);
+    transform: rotateX(-22.5deg) rotateY(15deg);
+
+    transition: 1s;
 }
 nav #prism:hover .side{
     color: #0000ee;
@@ -90,27 +98,27 @@ nav #prism:hover .side{
 }
 
 /* Each side needs different transformations */
-nav #prism:hover #one{
+nav #prism:hover #front{
     transform: translateZ(3vh);
     background: rgba(255, 0, 0, 0.8);
 }
-nav #prism:hover #two{
+nav #prism:hover #left{
     transform: rotateY(-90deg) translateZ(7.5vh);
-    background: rgba(0, 255, 0, 0.8);
-}
-nav #prism:hover #three{
-    transform: rotateX(90deg) translateZ(3vh);
     background: rgba(0, 0, 255, 0.8);
 }
-nav #prism:hover #four{
+nav #prism:hover #top{
+    transform: rotateX(90deg) translateZ(3vh);
+    background: rgba(0, 255, 0, 0.8);
+}
+nav #prism:hover #right{
     transform: rotateY(90deg) translateZ(7.5vh);
     background: rgba(255, 255, 0, 0.8);
 }
-nav #prism:hover #five{
+nav #prism:hover #bottom{
     transform: rotateY(180deg) rotateX(-90deg) translateZ(3vh);
     background: rgba(255, 0, 255, 0.8);
 }
-nav #prism:hover #six{
+nav #prism:hover #back{
     transform: rotateY(180deg) translateZ(3vh);
     background: rgba(0, 255, 255, 0.8);
 }
