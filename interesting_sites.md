@@ -61,9 +61,21 @@ This is a list of some interesting sites that we have found
 
         - [Beep Box](https://beepbox.co/)
 
+- # Stereograms
+    - [Hidden 3D](https://hidden-3d.com/)
+
+    - [Stereogram Tutorial](https://www.ime.usp.br/~otuyama/stereogram/basic/index.html)
+
+    - [ASCII Stereogram Creator](http://lightsecond.com/ElmAutostereogram/#TabEdit)
+
 - # 3D Printing
 
 - # Games
+
+- # Pages
+    - [David Eck's JavaScript Page](http://math.hws.edu/eck/js/index.html)
+
+    - [Vlad Gotlib](http://vladgotlib.com/)
 
 - # Tools
     - ## Text Generators
@@ -80,6 +92,12 @@ This is a list of some interesting sites that we have found
         Modular conversion, encoding and encryption online
 
     - [Network Graph Generator](https://graphonline.ru/en/)
+
+    - [Gear Generator](https://geargenerator.com/)
+
+    - [Coldplay Album Cover Generator](http://ditonus.com/coldcode/)
+
+    - [Logic Gate Builder](https://logic.ly/demo)
 
 - # Other
     - ## Zome Tools

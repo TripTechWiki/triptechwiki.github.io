@@ -2,6 +2,10 @@
   length: short
   link: /
 
+- name: Blog
+  length: short
+  link: /blog.html
+
 - name: Skyblock
   length: short
   link: /skyblock.html
