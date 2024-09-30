@@ -21,3 +21,7 @@
 - name: About
   length: short
   link: /about.html
+
+- name: Search
+  length: short
+  link: /search.html

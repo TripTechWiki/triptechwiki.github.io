@@ -1,15 +1,13 @@
 /* The current page button can look different than the others */
 nav #button_current #front{
-    background: #d83434;
-    color: #33ff00;
+    background: #edfad2;
+    color: #F08168;
 }
 
 nav{
     width: auto;
 
     text-align: center;
-
-    border: 2px dashed #0000ff;
 }
 nav a{
     display: inline-block;
@@ -65,8 +63,8 @@ nav .side{
 nav #front{
     z-index: 1;
 
-    color: #0000ee;
-    background: #888888;
+    color: #edfad2;
+    background: #F08168;
 }
 nav #left{
     transform: translateX(-5vh) rotateY(-180deg);
