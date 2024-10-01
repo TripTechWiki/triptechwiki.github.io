@@ -1,19 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Electrolize', sans-serif;
 
     margin: 0;
+    padding: 0;
 
     background: #3D2753;
     color: #edfad2;
 }
 
 article{
-    margin: 5vh 20vw 5vh 20vw;
+    min-width: 500px;
+    max-width: 60vw;
+
+    margin: 5vh auto;
     border: 10px double #AA87C0;
     border-radius: 20px;
     padding: 2vh 2vw;
 
     background: #4A2F65;
+
+    box-shadow: 0px 0px 50px #1E132A
 }
 
 a{
@@ -30,4 +40,10 @@ h1{
 
     border-radius: 10px;
     padding: 5px;
+}
+
+@media (width <= 625px) {
+    article{
+        min-width: 80vw;
+    }
 }

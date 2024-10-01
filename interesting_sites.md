@@ -42,7 +42,7 @@ This is a list of some interesting sites that we have found
 
         - [Strange Attractor Generator](https://hypatiastudio.com/attractors/)
 
-    - ## Calculators/Graphers
+    - ## Calculators / Graphers
         - [Big Number Calculator](https://www.ttmath.org/online_calculator)
 
             A calculator capable of working with very large numbers.
