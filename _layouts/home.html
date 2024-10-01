@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
 
-        <!-- Link to Stylesheet -->
-        <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Link to Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="assets/css/styles.css"
+      type="text/css"
+      media="screen" />
 
-        <!-- Links to Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+      <!-- Links to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
-        {% include sidebar.html %}
-        
-        <article>
-            {{ content }}
-        </article>
-    </body>
+  </head>
+  <body>
+    {% include sidebar.html %}
+
+    <article>
+      {{ content }}
+    </article>
+  </body>
 </html>
