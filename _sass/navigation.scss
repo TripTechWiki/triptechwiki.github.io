@@ -15,7 +15,7 @@ nav a{
     width: 15vh;
     height: 6vh;
     
-    margin: 1vh auto;
+    margin: 1vh 1vw;
 }
 nav #prism{
     width: 15vh;
@@ -46,12 +46,11 @@ nav .side{
     width: 15vh;
     height: 6vh;
 
-    box-sizing: border-box;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
+    margin: 0;
     border-radius: 2vh;
 
     color: rgba(0, 0, 0, 0);
@@ -68,7 +67,6 @@ nav #front{
 }
 nav #left{
     transform-origin: center left;
-    transform: translateX(-5vh);
     width: 40%;
 }
 nav #top{
@@ -77,7 +75,7 @@ nav #top{
 }
 nav #right{
     transform-origin: center right;
-    transform: translateX(5vh);
+    transform: translateX(9vh);
     width: 40%;
 }
 nav #bottom{
@@ -106,7 +104,7 @@ nav #prism:hover #front{
     color: #edfad2;
 }
 nav #prism:hover #left{
-    transform: translateX(-4.5vh) translateZ(3vh) rotateY(90deg);
+    transform: translateZ(3vh) rotateY(90deg);
     background: rgba(0, 0, 255, 0.8);
 }
 nav #prism:hover #top{
@@ -114,7 +112,7 @@ nav #prism:hover #top{
     background: rgba(0, 255, 0, 0.8);
 }
 nav #prism:hover #right{
-    transform: translateX(4.5vh) translateZ(3vh) rotateY(-90deg);
+    transform: translateX(9vh) translateZ(3vh) rotateY(-90deg);
     background: rgba(255, 255, 0, 0.8);
 }
 nav #prism:hover #bottom{

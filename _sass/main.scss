@@ -13,7 +13,7 @@ body{
 }
 
 article{
-    min-width: 500px;
+    min-width: 495px;
     max-width: 60vw;
 
     margin: 5vh auto;
@@ -42,8 +42,8 @@ h1{
     padding: 5px;
 }
 
-@media (width <= 625px) {
+@media (width <= 550px) {
     article{
-        min-width: 80vw;
+        min-width: 90vw;
     }
 }
