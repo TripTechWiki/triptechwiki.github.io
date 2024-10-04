@@ -3,12 +3,18 @@
     top: 0vh;
     left: 0vw;
 
-    width: 10vw;
+    width: 20vw;
     height: 100vh;
 
-    margin: 5vh 0 0 5vw;
+    padding: 5vh 0 0 0;
 }
 
-input{
-    width: 9vw;
+//825 is the point at which the article stops resizing
+@media (width <= 825px) {
+    .sidebar{
+        position: static;
+
+        width: 100vw;
+        height: auto;
+    }
 }
