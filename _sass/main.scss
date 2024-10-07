@@ -12,7 +12,7 @@ body{
     color: #edfad2;
 }
 
-article{
+main{
     min-width: 495px;
     max-width: 60vw;
 
@@ -43,7 +43,7 @@ h1{
 }
 
 @media (width <= 550px) {
-    article{
+    main{
         min-width: 90vw;
     }
 }

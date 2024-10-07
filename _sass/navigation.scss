@@ -12,7 +12,7 @@ nav{
     text-align: center;
 }
 
-//825 is the point at which the article stops resizing
+//825 is the point at which <main> stops resizing
 @media (width <= 825px) {
     nav{
         width: 100vw;
