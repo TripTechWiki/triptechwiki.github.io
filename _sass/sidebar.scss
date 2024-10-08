@@ -7,6 +7,8 @@
     height: 100vh;
 
     padding: 5vh 0 0 0;
+
+    text-align: center;
 }
 
 //825 is the point at which the article stops resizing
@@ -17,4 +19,8 @@
         width: 100vw;
         height: auto;
     }
+}
+
+img{
+    margin: 0 0 10px 0;
 }
