@@ -1,9 +1,9 @@
 <menu>
   {% for item in site.data.navigation offset: 1 %}
-    <div>
-      <a href="{{ item.link }}">
+    <a href="{{ item.link }}">
+      <div>
         {{ item.name }}
-      </a>
-    </div>
+      </div>
+    </a>
   {% endfor %}
 </menu>
