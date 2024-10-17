@@ -1,0 +1,24 @@
+- name: math
+  subtags:
+    - name: flexagons
+    - name: cellular_automata
+    - name: geometry
+      subtags:
+        - name: fractals
+    - name: calculators
+    - name: graphers
+- name: music
+  subtags:
+    - name: music_making
+- name: stereograms
+- name: ascii
+- name: personal_pages
+- name: demonstrations
+- name: art
+- name: tools
+  subtags:
+    - name: text_generators
+    - name: encryption
+- name: gears
+- name: logic_gates
+- name: zome_tools

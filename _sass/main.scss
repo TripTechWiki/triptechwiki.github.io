@@ -26,6 +26,10 @@ main{
     box-shadow: 0px 0px 50px #1E132A
 }
 
+main p{
+    padding: 0 0 0 5px;
+}
+
 a{
     color:#94F5D5;
 }
@@ -34,10 +38,11 @@ a:visited{
     color: #008A8A;
 }
 
-h1{
+h1, h2{
     background: #3D2753;
     color: #F08168;
 
+    margin: 0;
     border-radius: 10px;
     padding: 5px;
 }

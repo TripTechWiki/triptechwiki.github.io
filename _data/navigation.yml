@@ -1,27 +1,27 @@
 - name: Home
   length: short
-  link: /
+  url: /
 
 - name: Blog
   length: short
-  link: /blog.html
+  url: /blog.html
 
 - name: Skyblock
   length: short
-  link: /skyblock.html
+  url: /skyblock.html
 
 - name: Project Directory
   length: long
-  link: /directory.html
+  url: /directory.html
 
 - name: Interesting Sites
   length: long
-  link: /interesting_sites.html
+  url: /interesting_sites.html
 
 - name: About
   length: short
-  link: /about.html
+  url: /about.html
 
 - name: Search
   length: short
-  link: /search.html
+  url: /search.html
