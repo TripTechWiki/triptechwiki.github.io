@@ -1,0 +1,16 @@
+<ul>
+  {% comment %}  Loop through every tag in the list {% endcomment %}
+  {% for tag in include.tags %}
+    <li>
+      <a onclick="filterSelection('{{ tag.name }}')">
+        {{ tag.name }}
+      </a>
+
+      {% comment %} If the tag has subtags, recurse and loop through it {% endcomment %}
+      {% if tag.subtags %}
+        {% include tagSidebarTags.html tags=tag.subtags %}
+      {% endif %}
+
+    </li>
+  {% endfor %}
+</ul>

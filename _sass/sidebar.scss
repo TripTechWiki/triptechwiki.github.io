@@ -1,4 +1,4 @@
-.sidebar{
+#sidebar{
     position: fixed;
     top: 0vh;
     left: 0vw;
@@ -11,9 +11,9 @@
     text-align: center;
 }
 
-//825 is the point at which the article stops resizing
+//825 is the point at which <main> stops resizing
 @media (width <= 825px) {
-    .sidebar{
+    #sidebar{
         position: static;
 
         width: 100vw;

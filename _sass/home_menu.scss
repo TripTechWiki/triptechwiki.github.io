@@ -7,6 +7,8 @@ menu{
     min-width: 495px;
     max-width: 70vw;
 
+    filter: drop-shadow(0px 0px 50px #1E132A);
+
     margin: auto;
     padding: 0;
 
@@ -32,10 +34,8 @@ menu a{
     background-position: center center;
     background-size: cover;
 
-    box-shadow: 0px 0px 50px #1E132A;
-
     margin: 10px;
-    border: 4px solid #AA87C0;
+    border: 3.3px solid #AA87C0;
     border-radius: 20px;
 
     text-align: center;
@@ -45,8 +45,7 @@ menu a{
 }
 
 menu a:hover{
-    width: 22%;
-    min-width: 170px;
+    transform: scale(1.1);
 }
 
 menu div{

@@ -1,0 +1,121 @@
+// override the usual main style to be invisible
+main{
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+
+    background: none;
+
+    box-shadow: none;
+}
+
+#tagSidebar{
+    position: fixed;
+    top: 0vh;
+    right: 0vw;
+
+    width: 20vw;
+    height: 100vh;
+
+    padding: 5vh 0 0 0;
+}
+
+#showTags{
+    display: none;
+
+    position: fixed;
+    top: 0vh;
+    right: 0vw;
+
+    width: 20vw * 0.8;
+
+    margin: 5vh 2vw 0 0;
+    border: 3.3px solid #AA87C0;
+    border-radius: 20px;
+    padding: 2vh 2vw;
+
+    background: #4A2F65;
+
+    text-align: center;
+}
+
+//825 is the point at which <main> stops resizing
+@media (width <= 825px) {
+    #tagSidebar{
+        position: static;
+
+        width: 100%;
+        height: auto;
+    }
+
+    #showTags{
+        display: block;
+    }
+}
+
+#tagSidebar menu{
+    width: 80%;
+
+    margin: auto;
+    border: 3.3px solid #AA87C0;
+    border-radius: 20px;
+    padding: 2vh 2vw;
+
+    background: #4A2F65;
+
+    text-align: left;
+}
+
+#tagSidebar ul{
+    list-style-type: none;
+
+    padding: 0;
+}
+
+#tagSidebar ul ul{
+    padding: 0 0 0 15px;
+}
+
+//give the list item a similair style as the usual main style
+.filterItem{
+    display: none; //list items are hidden by default
+
+    margin: 2.5vh 0;
+    border: 10px double #AA87C0;
+    border-radius: 20px;
+    padding: 2vh 2vw;
+
+    background: #4A2F65;
+
+    box-shadow: 0px 0px 50px #1E132A
+}
+
+//the javascript will give listItems the show tag when they can be displayed
+.show{
+    display: block;
+}
+
+//some small spacing styles to make everything look nice
+#tagSidebar a, .tags{
+    padding: 0 0 0 5px;
+}
+
+#tagSidebar a, .tags a{
+    text-decoration: underline;
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+#tagSidebar a:hover, .tags a:hover{
+    color: #008A8A;
+}
+
+.tags{
+    background: #3D2753;
+    border-radius: 5px;
+}
+
+.tags a{
+    margin: 0 0.5ch;
+}

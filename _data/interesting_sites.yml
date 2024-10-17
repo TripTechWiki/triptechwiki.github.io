@@ -1,0 +1,242 @@
+##### Math #####
+
+- name: Loki 3 Flexagons
+  url: http://loki3.com/flex/
+  description: Dozens of different flexagons, with downloads and folding instructions for almost all of them. Most flexagons even have quite a bit of documentation about them, including observations and notation.
+  tags:
+    - math
+    - flexagons
+
+- name: The Flexagon Portal
+  url: https://www.flexagon.net/
+  description: Guides for a few flexagons, including the dodecahexaflexagon (a hexaflexagon with 12 sides).
+  tags:
+    - math
+    - flexagons
+
+- name: The Hexahexaflexagon
+  url: http://www.solipsys.co.uk/cgi-bin/sews.py?Hexahexaflexagon
+  description: A quick and easy guide to making a hexahexaflexagon (a hexaflexagon with 6 sides).
+  tags:
+    - math
+    - flexagons
+
+- name: Wolfram MathWorld Elementary Cellular Automaton
+  url: https://mathworld.wolfram.com/ElementaryCellularAutomaton.html
+  description: An enciclopedia for the elementary cellular automaton that fully lays out all its rules and results.
+  tags:
+    - math
+    - cellular_automata
+
+- name: Elementary Cellular Automatan Online
+  url: http://devinacker.github.io/celldemo/
+  description: A bare bones site to simulate the elementary cellular automaton.
+  tags:
+    - math
+    - cellular_automata
+
+- name: 3D Cellular Automatan
+  url: http://cubes.io/
+  description: A 3D version of the elementary cellular automaton, with many settings to choose from.
+  tags:
+    - math
+    - cellular_automata
+
+- name: Polyhedra Viewer
+  url: https://polyhedra.tessera.li/
+  description: 
+  tags:
+    - math
+    - geometry
+
+- name: Strange Attractor Generator
+  url: https://hypatiastudio.com/attractors/
+  description: 
+  tags:
+    - math
+    - geometry
+
+- name: Big Number Calculator
+  url: https://www.ttmath.org/online_calculator
+  description: A calculator capable of working with very large numbers.
+  tags:
+    - math
+    - calculators
+
+- name: 3D Grapher
+  url: http://grapher.mathpix.com/
+  description: 
+  tags:
+    - math
+    - graphers
+
+- name: Network Graph Generator
+  url: https://graphonline.ru/en/
+  description: 
+  tags:
+    - math
+    - graphers
+
+##### Music #####
+
+- name: Chrome Music Lab
+  url: https://musiclab.chromeexperiments.com/
+  description: Some simple music and sound makers to experiment with.
+  tags:
+    - music
+    - music_making
+
+- name: Incredibox
+  url: https://www.incredibox.com/demo/v3
+  description: 
+  tags:
+    - music
+    - music_making
+
+- name: Wolfram Tones
+  url: http://tones.wolfram.com/generate
+  description: 
+  tags:
+    - music
+    - music_making
+
+- name: Beep Box
+  url: https://beepbox.co/
+  description: 
+  tags:
+    - music
+    - music_making
+
+##### Stereograms #####
+
+- name: Hidden 3D
+  url: https://hidden-3d.com/
+  description: 
+  tags:
+    - stereograms
+
+- name: Stereogram Tutorial
+  url: https://www.ime.usp.br/~otuyama/stereogram/basic/index.html
+  description: 
+  tags:
+    - stereograms
+
+- name: ASCII Stereogram Creator
+  url: http://lightsecond.com/ElmAutostereogram/#TabEdit
+  description: 
+  tags:
+    - stereograms
+    - ascii
+
+##### Personal Pages #####
+
+- name: David Eck's JavaScript Page
+  url: http://math.hws.edu/eck/js/index.html
+  description: 
+  tags:
+    - personal_pages
+    - demonstrations
+    - math
+    - geometry
+    - fractals
+    - cellular_automata
+    - art
+
+- name: Science vs Magic
+  url: https://sciencevsmagic.net/
+  description: A few *extremely* well made geometry demonstrations.
+  tags:
+    - personal_pages
+    - demonstrations
+    - math
+    - geometry
+    - fractals
+    - cellular_automata
+    - art
+
+- name: Vlad Gotlib
+  url: http://vladgotlib.com/
+  description: 
+  tags:
+    - personal_pages
+    - demonstrations
+    - math
+    - geometry
+
+##### Tools #####
+
+- name: Picture to People
+  url: http://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html
+  description: 
+  tags:
+    - tools
+    - text_generators
+
+- name: Cool Text
+  url: https://cooltext.com/
+  description: 
+  tags:
+    - tools
+    - text_generators
+
+- name: ASCII Font Generator
+  url: http://patorjk.com/software/taag/
+  description: 
+  tags:
+    - tools
+    - text_generators
+    - ascii
+
+- name: Coldplay Album Cover Generator
+  url: http://ditonus.com/coldcode/
+  description:
+  tags:
+    - tools
+    - text_generators
+    - encryption
+
+- name: Content-Aware Scaling
+  url: https://shhnowisnottheti.me/content-aware-scaling/
+  description: 
+  tags:
+    - tools
+    - images
+
+- name: Cryptii Encryptor
+  url: https://cryptii.com/
+  description: Modular text encryption and decryption online
+  tags:
+    - tools
+    - encryption
+
+- name: Gear Generator
+  url: https://geargenerator.com/
+  description: 
+  tags:
+    - tools
+    - gears
+
+- name: Logic Gate Builder
+  url: https://logic.ly/demo
+  description: 
+  tags:
+    - tools
+    - logic_gates
+
+- name: Zome Tools
+  url: https://www.zometool.com/
+  description: 
+  tags:
+    - zome_tools
+
+- name: Grey Zome
+  url: https://greyzome.com/
+  description: 
+  tags:
+    - zome_tools
+
+# - name: 
+#   url: 
+#   description: 
+#   tags:
+#     - 
