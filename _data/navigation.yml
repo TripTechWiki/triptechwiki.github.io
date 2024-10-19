@@ -6,9 +6,9 @@
   length: short
   url: /blog.html
 
-- name: Skyblock
+- name: Minecraft
   length: short
-  url: /skyblock.html
+  url: /minecraft.html
 
 - name: Project Directory
   length: long
