@@ -1,6 +1,6 @@
 <menu>
   {% for item in site.data.navigation offset: 1 %}
-    <a href="{{ item.url }}">
+    <a href="{{ item.url }}" style="background-image:url(/assets/images/{{ item.name | slugify | replace: "-", "_" }}.png);">
       <div>
         {{ item.name }}
       </div>
