@@ -30,9 +30,9 @@ menu a{
     min-width: 150px;
     aspect-ratio: 1;
 
-    background-image: url(/assets/images/missing.png);
     background-position: center center;
     background-size: cover;
+    image-rendering: pixelated;
 
     margin: 10px;
     border: 3.3px solid #AA87C0;
@@ -56,6 +56,12 @@ menu div{
     border-radius: 10px;
     padding: 5px;
 
-    background: rgba(61, 39, 83, 0.75);
+    background: #4a2f65dd;
     color: #F08168;
+
+    transition: 0.5s;
+}
+
+menu a:hover div{
+    transform: scale(1.1);
 }

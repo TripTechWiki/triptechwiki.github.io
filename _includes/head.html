@@ -7,11 +7,11 @@
 <meta name="keywords" content="triptech">
 
 <!-- Title + Favicon -->
-<title>{{ page.title }}</title>
+<title>{{ page.title }} | TripTech Wiki</title>
 <link
   rel="icon"
   type="image/x-icon"
-  href="/assets/images/missing.png">
+  href="/assets/images/{{ page.title | slugify | replace: "-", "_" }}.png">
 
   <!-- Links to Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
