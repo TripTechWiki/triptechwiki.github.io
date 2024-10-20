@@ -28,7 +28,6 @@ twitter_username: jekyllrb
 github_username:  TripTechWiki
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
