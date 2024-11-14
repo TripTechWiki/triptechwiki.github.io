@@ -49,12 +49,35 @@
     - math
     - geometry
 
+- name: Seifert View
+  url: https://vanwijk.win.tue.nl/seifertview/
+  description: 
+  tags:
+    - math
+    - geometry
+
 - name: Strange Attractor Generator
   url: https://hypatiastudio.com/attractors/
   description: 
   tags:
     - math
     - geometry
+
+- name: Online Fractal Generator
+  url: http://usefuljs.net/fractals/
+  description: 
+  tags:
+    - math
+    - geometry
+    - fractals
+
+- name: Visions of Chaos
+  url: https://softology.pro/voc.htm
+  description: 
+  tags:
+    - math
+    - geometry
+    - fractals
 
 - name: Big Number Calculator
   url: https://www.ttmath.org/online_calculator
@@ -163,6 +186,28 @@
     - math
     - geometry
 
+##### Demonstrations #####
+
+- name: OMG Space
+  url: https://omgspace.net/
+  description: 
+  tags:
+    - demonstrations
+
+##### Art #####
+
+- name: CT Fine Furniture
+  url: https://ctfinefurniture.com/
+  description: 
+  tags:
+    - art
+
+- name: Rafaël Rozendaal
+  url: https://www.newrafael.com/
+  description:
+  tags:
+    - art
+
 ##### Tools #####
 
 - name: Picture to People
@@ -222,6 +267,14 @@
   tags:
     - tools
     - logic_gates
+
+- name: Universal LPC Spritesheet Character Generator
+  url: https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/
+  description: 
+  tags:
+    - tools
+
+##### Misc #####
 
 - name: Zome Tools
   url: https://www.zometool.com/
