@@ -11,69 +11,75 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Twine Blossom.</tw-noscript></noscript></tw-story>
 <tw-storydata name="Twine Blossom" startnode="1" creator="Twine" creator-version="2.9.2" format="Harlowe" format-version="3.3.9" ifid="15D0430E-EBE2-4282-9443-98755D958E5B" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
-*{
+tw-story{
   font-family: "Electrolize", sans-serif;
   letter-spacing: 0.025em;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="josh" color="green"></tw-tag><tw-tag name="golden" color="green"></tw-tag><tw-tag name="tnt" color="blue"></tw-tag><tw-tag name="malvakarst" color="purple"></tw-tag><tw-tag name="unused" color="red"></tw-tag><tw-tag name="secret/easter-egg" color="yellow"></tw-tag><tw-passagedata pid="1" name="Start" tags="malvakarst" position="500,500" size="100,100">I walked to London with my irredescent pencil, I had to hurry otherwise I&#39;d miss the election.
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="josh" color="green"></tw-tag><tw-tag name="golden" color="green"></tw-tag><tw-tag name="tnt" color="blue"></tw-tag><tw-tag name="malvakarst" color="purple"></tw-tag><tw-tag name="unused" color="red"></tw-tag><tw-tag name="secret/easter-egg" color="yellow"></tw-tag><tw-passagedata pid="1" name="Start" tags="malvakarst" position="575,600" size="100,100">I walked to London with my irredescent pencil, I had to hurry otherwise I&#39;d miss the election.
 
 [[walk faster-&gt;Tripping]]
 
 [[find scooter-&gt;scooter]]
 
 [[wait, who am I?-&gt;name]]
-(set: $account to 0)(set: $health to 100)(set: $relationships to 0)(set: $secrets to 0)</tw-passagedata><tw-passagedata pid="2" name="Tripping" tags="tnt" position="500,700" size="100,100">You trip. 
+(set: $account to 0)(set: $health to 100)(set: $relationships to 0)(set: $secrets to 0)(set: $concussionmode to 0)</tw-passagedata><tw-passagedata pid="2" name="Tripping" tags="tnt" position="575,775" size="100,100">You trip. 
 (set: $health to $health-5)
 Move Back 5 Spaces
 
 [[Reroll-&gt;Rerolling The Dice]]
 
-[[Draw Again-&gt;Draw Again]]</tw-passagedata><tw-passagedata pid="3" name="scooter" tags="golden" position="900,300" size="100,100">I hopped on the first public scooter I saw, and opened my phone to choose the payment plan.
+[[Draw Again-&gt;Draw Again]]</tw-passagedata><tw-passagedata pid="3" name="scooter" tags="golden" position="775,650" size="100,100">I hopped on the first public scooter I saw, and opened my phone to choose the payment plan.
 
 [[$1 per minute-&gt;1 dollar]] 
 
 [[$50 per hour-&gt;50 dollar]] 
 
-[[try to use the scooter without the app-&gt;steal scooter]]</tw-passagedata><tw-passagedata pid="4" name="1 dollar" tags="tnt" position="1100,500" size="100,100">This is such a poor financial decision.
-(set: $account to $account-10)
-I will never financially recover, as the election is a couple minutes away, putting me back ones of dollars.
+[[try to use the scooter without the app-&gt;steal scooter]]</tw-passagedata><tw-passagedata pid="4" name="1 dollar" tags="tnt" position="925,650" size="100,100">This was such a poor financial decision.
 
-[[continue to the election-&gt;election intro]]</tw-passagedata><tw-passagedata pid="5" name="50 dollar" tags="golden" position="1000,700" size="100,100">This is a good choice, considering the ballot box is only a few minutes away. Those big corperations really need every penny they can muster.
+I would never financially recover, as the election was only a couple minutes away, putting me back ones of dollars.
+(set: $account to $account-10)
+[[continue to the election-&gt;election intro]]</tw-passagedata><tw-passagedata pid="5" name="50 dollar" tags="golden" position="850,775" size="100,100">This was a good choice, considering the ballot box was only a few minutes away. Those big corperations really need every penny they can muster.
 (set: $account to $account-50)
 [[scooter away-&gt;election intro]]
 
-[[decide to walk-&gt;Tripping]]</tw-passagedata><tw-passagedata pid="6" name="Rerolling The Dice" tags="golden" position="300,700" size="100,100">(set: $die to (random: 1,6))You rolled a(after:0.5s)[.](after:1s)[.](after:1.5s)[.] (after:2s) + (text-colour:cyan)[$die(text-color:white)[!]]
+[[decide to walk-&gt;Tripping]]</tw-passagedata><tw-passagedata pid="6" name="Rerolling The Dice" tags="golden" position="400,775" size="100,100">(set: $die to (random: 1,6))You rolled a(after:0.5s)[.](after:1s)[.](after:1.5s)[.] (after:2s) + (text-colour:cyan)[$die(text-color:white)[!]]
 
-(after:2.5s)[(if: $die is 1)[[Could&#39;ve been higher...-&gt;1: 1-2]](if: $die is 2)[[Could&#39;ve been higher...-&gt;1: 1-2]](if: $die is 3)[[Thats not the worst!-&gt;2: 3-4]](if: $die is 4)[[Thats not the worst!-&gt;2: 3-4]](if: $die is 5)[[That&#39;s pretty good!-&gt;3: 4-5]](if: $die is 6)[[That&#39;s pretty good!-&gt;3: 4-5]]]</tw-passagedata><tw-passagedata pid="7" name="why" tags="malvakarst" position="100,300" size="100,100">(change: ?page, (background: #173612))
+(after:2.5s)[(if: $die is 1)[[Could&#39;ve been higher...-&gt;1: 1-2]](if: $die is 2)[[Could&#39;ve been higher...-&gt;1: 1-2]](if: $die is 3)[[Thats not the worst!-&gt;2: 3-4]](if: $die is 4)[[Thats not the worst!-&gt;2: 3-4]](if: $die is 5)[[That&#39;s pretty good!-&gt;3: 4-5]](if: $die is 6)[[That&#39;s pretty good!-&gt;3: 4-5]]]</tw-passagedata><tw-passagedata pid="7" name="why" tags="malvakarst" position="300,400" size="100,100">(change: ?page, (background: #173612))
 Hello $name!
-Why dont we get some backstory, what are you doing here?
+Why don&#39;t we get some backstory, what are you doing here?
 
 [[I was walking-&gt;why2]]
 
-[[I dont like this game-&gt;no]]
+[[I don&#39;t like this game-&gt;no]]
 
-</tw-passagedata><tw-passagedata pid="8" name="name" tags="golden" position="300,500" size="100,100">(change: ?page, (background: #173612))
+</tw-passagedata><tw-passagedata pid="8" name="name" tags="golden" position="400,550" size="100,100">(change: ?page, (background: #173612))
 Your name please:
 (if:visits is 1)[(input-box:2bind $name,&quot;XXX=======&quot;,1)](else-if:visits is not 1)[(input-box:2bind $name, &quot;XXX=======&quot;,1,$name)]
-[[Enter-&gt;why]]</tw-passagedata><tw-passagedata pid="9" name="why2" tags="malvakarst" position="300,300" size="100,100">(change: ?page, (background: #173612))
+[[Enter-&gt;why]]</tw-passagedata><tw-passagedata pid="9" name="why2" tags="malvakarst" position="475,425" size="100,100">(change: ?page, (background: #173612))
 You were on your way to the election in London, iridescent pencil in hand.
 
 [[ok I know, but why-&gt;why3]]
-[[oh ok I understand-&gt;Start]]</tw-passagedata><tw-passagedata pid="10" name="no" tags="golden" position="100,100" size="100,100">|1&gt;[(text-colour:red)[Loading a new game(after:0.5s)[.](after:1s)[.](after:1.5s)[.](after:2s)[.](after:2.5s)[.](after:3s)[.](after:3.5s)[.](after:4s)[.](after:4.5s)[.](after:5s)[.]]](after:6s)[(show:?2)(hide:?1)]
+
+[[oh ok I understand-&gt;Start]]</tw-passagedata><tw-passagedata pid="10" name="no" tags="golden" position="175,275" size="100,100">|1&gt;[(text-colour:red)[Loading a new game(after:0.5s)[.](after:1s)[.](after:1.5s)[.](after:2s)[.](after:2.5s)[.](after:3s)[.](after:3.5s)[.](after:4s)[.](after:4.5s)[.](after:5s)[.]]](after:6s)[(show:?2)(hide:?1)]
 |2)[(text-color:yellow)[Initializing(after:6.5s)[.](after:7s)[.](after:7.5s)[.](after:8s)[.](after:8.5s)[.](after:9s)[.](after:9.5s)[.](after:10s)[.](after:10.5s)[.](after:11s)[.]](after:12s)[(show:?3)(hide:?2)]]
-|3)[(text-style:&quot;fade-in-out&quot;) + (text-color:green)[[Press Start-&gt;Press Start]]]</tw-passagedata><tw-passagedata pid="11" name="why3" tags="malvakarst" position="500,300" size="100,100">(change: ?page, (background: #173612))
+|3)[(text-style:&quot;fade-in-out&quot;) + (text-color:green)[[Press Start-&gt;Press Start]]]</tw-passagedata><tw-passagedata pid="11" name="why3" tags="malvakarst" position="575,300" size="100,100">(change: ?page, (background: #173612))
 Are you sure you want the full backstory?
 
 [[Please-&gt;backstory real]]
-[[You know what, nevermind-&gt;Start]]</tw-passagedata><tw-passagedata pid="12" name="steal scooter" tags="golden" position="900,600" size="100,100">Since the wheels are still locked, you begin to (text-style:&quot;buoy&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[scoot]]]]]]]]]]] the scooter along the ground by hand. At this rate you should reach the election in (text-colour:yellow)[no time]!
+
+[[You know what, nevermind-&gt;Start]]</tw-passagedata><tw-passagedata pid="12" name="steal scooter" tags="golden" position="875,475" size="100,100">Since the wheels are still locked, I began to (text-style:&quot;buoy&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[(text-style:&quot;fidget&quot;)[scoot]]]]]]]]]]] the scooter along the ground by hand. At this rate I&#39;d reach the election in (text-colour:yellow)[no time]!
 
 [[pick up the pace-&gt;run with scooter]]
 
-[[decide to walk-&gt;Tripping]]</tw-passagedata><tw-passagedata pid="13" name="run with scooter" tags="" position="700,500" size="100,100"></tw-passagedata><tw-passagedata pid="14" name="walking faster" tags="golden" position="300,900" size="100,100">As we are now in New York, New York, walking to London has become a bit of a tricker task.
+[[decide to walk-&gt;Tripping]]
+
+Or I could, of course...
+
+[[tie the scooter to the back of a car-&gt;carscoot]]</tw-passagedata><tw-passagedata pid="13" name="run with scooter" tags="" position="1025,475" size="100,100"></tw-passagedata><tw-passagedata pid="14" name="walking faster" tags="golden" position="425,1050" size="100,100">As we are now in New York, New York, walking to London has become a bit of a tricker task.
 We don&#39;t want to be late to the convention, however, so we&#39;ll begin our walk into the sea.
 
 (text-style:&quot;buoy&quot;)[[Let&#39;s start swimming]]
 
-[[Maybe we should find a boat...]]</tw-passagedata><tw-passagedata pid="15" name="an impossible task in NY" tags="tnt" position="700,900" size="100,100">(if:visits is not 3)[(if:visits is not 6)[(if:visits is not 9)[As we are currently in New York, New York, none of the free taxis hail a group of our size. 
+[[Maybe we should find a boat...]]</tw-passagedata><tw-passagedata pid="15" name="an impossible task in NY" tags="tnt" position="800,1050" size="100,100">(if:visits is not 3)[(if:visits is not 6)[(if:visits is not 9)[As we are currently in New York, New York, none of the free taxis hail a group of our size. 
 
 We will simply have to [[try again-&gt;Draw Again]] another time.]]](if:visits is 3)[Wait. We should maybe just summon an Uber
 
@@ -195,18 +201,33 @@ or we can [[try again-&gt;Draw Again]]](if:visits is 9)[Well, we could always [[
 
 [[try again-&gt;They&#39;re devoted]]]
 
-</tw-passagedata><tw-passagedata pid="16" name="one dollar pizza" tags="" position="900,1000" size="100,100">
-(set: $health to $health-2)</tw-passagedata><tw-passagedata pid="17" name="go home" tags="secret/easter-egg" position="700,1200" size="100,100">
-(set: $secrets to $secrets + 2)</tw-passagedata><tw-passagedata pid="18" name="Science Museum" tags="secret/easter-egg" position="800,1100" size="100,100">
+</tw-passagedata><tw-passagedata pid="16" name="one dollar pizza" tags="golden" position="950,1050" size="100,100">Luckily, there is a local vendor just down the road! How many slices do we need to buy for everyone?
+
+[[10 slices?]]
+
+[[50 slices?]]</tw-passagedata><tw-passagedata pid="17" name="go home" tags="secret/easter-egg tnt" position="775,1375" size="100,100">(set: $secrets to $secrets + 2)We arrive back Home.
+
+It&#39;s just how we remember it.
+
+The doors a splendid array of colors.
+The House a wonderfal opulence.
+The ṃ̴̭̍̌̊ã̸̖͖̓̔î̵̹̝̠l̶̦̲̻̄b̴̢̢̫͌ó̸̢̗̂́x̶͓͂͐́e̵̢̘̥͒̓̄s̶̵̯̰̾̊̚̚ #̸̢̤̙̋̋.̶̛̯̯́@̴̙̦͙͓̐̈́̀̇.̵̦̳͇͎̔̿͑7̸̣̯̇͂.̷̼͇̞͒̈́́3̴͇̪͝
+
+[[Go inside -&gt; enter house]]
+
+[[check m̵͖̄a̷̤̿i̷̙͑l̵̘̇ -&gt; mailbox]]</tw-passagedata><tw-passagedata pid="18" name="Science Museum" tags="secret/easter-egg" position="875,1275" size="100,100">
 (set: $secrets to $secrets + 1)
-(set: $account to $account - 10)</tw-passagedata><tw-passagedata pid="19" name="They&#39;re devoted" tags="secret/easter-egg" position="600,1100" size="100,100">
-(set: $secrets to $secrets + 3)</tw-passagedata><tw-passagedata pid="20" name="Draw Again" tags="tnt" position="500,900" size="100,100">We begin walking to London with the matte pencil. 
+(set: $account to $account - 10)</tw-passagedata><tw-passagedata pid="19" name="They&#39;re devoted" tags="secret/easter-egg tnt" position="700,1225" size="100,100">(set: $secrets to $secrets + 3)We watch eagerly, with all our arms upstretched, as an entire fleet of taxis show up.
+
+The entire group is caught up in a frenzy, taxis being forwarded to the airport with increasing speed and numbers.
+
+[[Get Out -&gt; airport]]</tw-passagedata><tw-passagedata pid="20" name="Draw Again" tags="tnt" position="575,950" size="100,100">We begin walking to London with the matte pencil. 
 
 We have to hurry otherwise we&#39;ll miss the convention.
 
 [[walk faster-&gt;walking faster]] 
 
-[[find taxi-&gt;an impossible task in NY]] </tw-passagedata><tw-passagedata pid="21" name="1: 1-2" tags="" position="100,500" size="100,100"></tw-passagedata><tw-passagedata pid="22" name="2: 3-4" tags="" position="100,700" size="100,100"></tw-passagedata><tw-passagedata pid="23" name="3: 4-5" tags="" position="100,900" size="100,100"></tw-passagedata><tw-passagedata pid="24" name="backstory test" tags="unused malvakarst" position="1300,100" size="100,100">(change: ?page, (background: #173612))
+[[find taxi-&gt;an impossible task in NY]] </tw-passagedata><tw-passagedata pid="21" name="1: 1-2" tags="" position="175,700" size="100,100"></tw-passagedata><tw-passagedata pid="22" name="2: 3-4" tags="" position="200,800" size="100,100"></tw-passagedata><tw-passagedata pid="23" name="3: 4-5" tags="" position="225,900" size="100,100"></tw-passagedata><tw-passagedata pid="24" name="backstory test" tags="unused malvakarst" position="650,75" size="100,100">(change: ?page, (background: #173612))
 
 (enchant:?N1, (text-style:&#39;Tall&#39;))
 (enchant:?P1, (font:&#39;Courier New&#39;))
@@ -241,14 +262,7 @@ one more time]]]
 (click: &quot;one more time&quot;)[ (replace: ?bak)[|bak&gt;[(font:&#39;Courier New&#39;)[boring text finale]
 
 please kill me]]]
-</tw-passagedata><tw-passagedata pid="25" name="backstory real" tags="malvakarst" position="700,300" size="100,100">(change: ?page, (background: #350769))
-&lt;!--stuff to paste
-(click: &quot;click&quot;)[(replace: ?bak)[|bak&gt;[(font:&#39;Courier New&#39;)[]
-]]]
-(text-colour:#34b260)[(font:&#39;Courier New&#39;)[Don]]
-(text-colour:#34b260)[(font:&#39;Courier New&#39;)[Dan]]
---&gt;
-|bak&gt;[(font:&#39;Courier New&#39;)[The year is 1937. You, $name, have yet to be born. A very large yet publicly secret company called (text-colour:#892929)[Telos] is making a deal that could change the world. A deal which, to those that know of it, would live on in infamy…]
+</tw-passagedata><tw-passagedata pid="25" name="backstory real" tags="malvakarst" position="675,425" size="100,100">(change: ?page, (background: #350769))|bak&gt;[(font:&#39;Courier New&#39;)[The year is 1937. You, $name, have yet to be born. A very large yet publicly secret company called (text-colour:#892929)[Telos] is making a deal that could change the world. A deal which, to those that know of it, would live on in infamy…]
 
 Do I know about this deal?]
 
@@ -313,7 +327,13 @@ None at all?]]]
 [[Um no-&gt;Start]] 
 
 [[Yes actually-&gt;Start]]]]]
-</tw-passagedata><tw-passagedata pid="26" name="Press Start" tags="golden" position="300,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)[Welcome to (text-colour:green) + (text-style:&quot;blink&quot;)[Zork]]
+&lt;!--stuff to paste
+(click: &quot;click&quot;)[(replace: ?bak)[|bak&gt;[(font:&#39;Courier New&#39;)[]
+]]]
+(text-colour:#34b260)[(font:&#39;Courier New&#39;)[Don]]
+(text-colour:#34b260)[(font:&#39;Courier New&#39;)[Dan]]
+--&gt;
+</tw-passagedata><tw-passagedata pid="26" name="Press Start" tags="golden" position="200,100" size="100,100">(align:&quot;=&gt;&lt;=&quot;)[Welcome to (text-colour:green) + (text-style:&quot;blink&quot;)[Zork]]
 
 West of House
 You are standing in an open field west of a white house, with a boarded front door.
@@ -321,8 +341,23 @@ There is a small mailbox here.
 
 (if:visits is not 1)[(text-colour:red)[I don&#39;t know the word &quot;$zork&quot;.]]
 (input-box:2bind $zork,&quot;XXX=======&quot;,1)
-[[Enter-&gt;Press Start]]</tw-passagedata><tw-passagedata pid="27" name="950 dollar" tags="" position="1000,900" size="100,100">
-(set: $account to $account-950)</tw-passagedata><tw-passagedata pid="28" name="Let&#39;s start swimming" tags="" position="100,1100" size="100,100"></tw-passagedata><tw-passagedata pid="29" name="Maybe we should find a boat..." tags="" position="300,1100" size="100,100"></tw-passagedata><tw-passagedata pid="30" name="election intro" tags="" position="1300,700" size="100,100"></tw-passagedata><tw-passagedata pid="31" name="Score Page" tags="unused tnt" position="1400,100" size="100,100">(text-colour:red)+(text-style:&quot;bold&quot;,&quot;expand&quot;)+(size:3)+(text-style:&quot;bold&quot;)[You Died]
+[[Enter-&gt;Press Start]]</tw-passagedata><tw-passagedata pid="27" name="950 dollar" tags="" position="1000,1200" size="100,100">
+(set: $account to $account-950)</tw-passagedata><tw-passagedata pid="28" name="Let&#39;s start swimming" tags="malvakarst" position="300,1150" size="100,100">(font:&#39;courier new&#39;)[Meanwhile, on the news...]
+
+(font:&#39;arial&#39;)[&quot;Breaking news: a group of roughly 7 to 70 people have just starting walking into the sea. We are yet to know why this has occured. We will update you as the story unfolds.&quot;
+
+&quot;Coming up next, a new craze is sweeping the nation: edible ant farms... are they Peta aproved? More at ten!&quot;]
+
+(font:&quot;times new roman&quot;)[ [[Turn off-&gt;off]]
+[[Or keep watching-&gt;keep watching]] ]
+
+</tw-passagedata><tw-passagedata pid="29" name="Maybe we should find a boat..." tags="" position="500,1200" size="100,100"></tw-passagedata><tw-passagedata pid="30" name="election intro" tags="golden" position="1000,775" size="100,100">(text-style:&quot;buoy&quot;)[Whoo!] I made it just in time!
+
+It sounded like the election was just about to start, so I decided to walk in.
+
+[[Enter the main entrance]]
+
+[[Enter the back entrance]]</tw-passagedata><tw-passagedata pid="31" name="Score Page" tags="unused tnt" position="750,75" size="100,100">(text-colour:red)+(text-style:&quot;bold&quot;,&quot;expand&quot;)+(size:3)+(text-style:&quot;bold&quot;)[You Died]
 
 (set: $score to $account*$secrets + $relationships*$secrets + $health*$secrets)
 
@@ -333,7 +368,107 @@ Friends: $relationships
 
 Secrets Found: $secrets
 
-(size:1)[Ending Score: ]$score</tw-passagedata></tw-storydata>
+(size:1)[Ending Score: ]$score</tw-passagedata><tw-passagedata pid="32" name="10 slices?" tags="tnt" position="1100,975" size="100,100">(set: $health to $health-2)(set: $account to $account-10)We quickly devour probably hundreds of slices
+
+Every Pizza shop on the block is temporarily flooded with requests, leading to a slightly longer waiting time.
+
+(after: 15s)[[[Continue -&gt; Continue]]]</tw-passagedata><tw-passagedata pid="33" name="50 slices?" tags="tnt" position="1100,1100" size="100,100">(set: $health to $health-10)(set: $account to $account-50)We quickly move to devour probably thousands of slices
+
+Every Pizza shop in the downtown block is flooded with requests, unprepared for the abnormally high number of &quot;Dollar Slice&quot; requests.
+
+People run to market for cheeses, sauce, and flour, desperately trying to meet the ever-increasing demand.
+
+[[Continue -&gt; Famine]]</tw-passagedata><tw-passagedata pid="34" name="Enter the main entrance" tags="" position="1150,825" size="100,100"></tw-passagedata><tw-passagedata pid="35" name="Enter the back entrance" tags="" position="1150,700" size="100,100"></tw-passagedata><tw-passagedata pid="36" name="carscoot" tags="malvakarst" position="950,325" size="100,100">Perfect. I decided to choose the best option and tied the scooter to the back of a random car. Because this was the best option, I meticously `[sic]` exacted my plant to its true perfection. I (while no one was looking, (ofc)) carefully tied the scooter to the back of the sturdiest volvo I could find, using rope fashioned out of stuff. 
+
+Now all I had to do was wait for the car to get going, once the person sleeping in the front seat noticed all of the mice I fed through the barely open rear pasenger window.
+
+(font:&#39;Courier New&#39;)[Ok, I know you think this plan is a phenominal idea, but how&#39;s your balance?]
+
+What, who said that?
+
+I assumed a random helpful bystander asked the question.
+
+[[attempt to prove my ability and say &quot;my balance is stronger than any gyroscope&quot;-&gt;carscoot2]]
+
+[[attempt to remain humble yet hopeful and say &quot;we&#39;ll just have to see won&#39;t we&quot;-&gt;carscoot2]]</tw-passagedata><tw-passagedata pid="37" name="carscoot2" tags="malvakarst" position="1025,175" size="100,100">I got on the scooter, prepared for whatever was about to happen.
+
+(after:2s)[I waited...]
+(after:4s)[And waited...]
+(after:8s)[I waited some more...]
+(after:10s)[I waited...]
+(after:12s)[[[Keep waiting...-&gt;wait]]]</tw-passagedata><tw-passagedata pid="38" name="wait" tags="malvakarst" position="1100,300" size="100,100">I started to daydream after waiting for so long, but then a scream coming from inside the car startled me. A bit frightened I tensed up and griped tighter to the scooter, which just so happened to be when the car took off. 
+
+[[Grip tighter-&gt;fall]]</tw-passagedata><tw-passagedata pid="39" name="fall" tags="malvakarst" position="1175,175" size="100,100">Almost instantly the scooter (with locked wheels) fell over, and with it so did I, blacking out.
+
+(text-style:&quot;blurrier&quot;)+(text-color:blue)[[[eyies fruzzly a,nd mrind jsu topening, me aawakei&#39;nupining-&gt;unfall]]]</tw-passagedata><tw-passagedata pid="40" name="unfall" tags="malvakarst" position="1250,300" size="100,100">I found myself about a foot away from where I last remember being, as a guy ran past me panicked about mice and a now broken mailbox. I assumed that I had been out for at least a day if not more.
+(set: $health to $health-5)(set:$concussionmode to $concussionmode+1)
+[[look around]]</tw-passagedata><tw-passagedata pid="41" name="off" tags="golden" position="300,1300" size="100,100">(font:&quot;times new roman&quot;)[&quot;Well, that&#39;s enough of that jargon!&quot;](font:&quot;courier new&quot;)[, he said, stading up, ](font:&quot;times new roman&quot;)[&quot;I&#39;d better head o&#39;er to (text-style:&quot;buoy&quot;)+(text-colour:yellow)[the ol&#39; dock] fer the day.&quot;]
+
+(font:&quot;times new roman&quot;)[ [[walk to the dock]]]</tw-passagedata><tw-passagedata pid="42" name="walk to the dock" tags="tnt" position="300,1425" size="100,100">(font:&quot;courier new&quot;)[(text-colour:yellow)[The dock]
+
+Looming seas of fog,
+covering unsightly waves.
+Metal frames,
+trees reaching for nearing dawn.
+Metal endcaps,
+overflow with the trees we have replaced.
+A monument,
+a religious site, unknown to most.
+
+[[Look Around -&gt; Wharf]]
+
+[[Continue to -&gt; The &quot;Dock&quot;]](text-color: yellow)[The Old Dock]]</tw-passagedata><tw-passagedata pid="43" name="keep watching" tags="golden" position="150,1150" size="100,100">(font:&quot;times new roman&quot;)[&quot;Hmph!&quot;](font:&quot;courier new&quot;)[, he exclaimed, ](font:&quot;times new roman&quot;)[&quot;Those Peta folk are always gettin&#39; in the way o&#39; the people!&quot;]
+
+(font:&#39;arial&#39;)[&quot;Aaaand now...let&#39;s take a closer look into the life of Ms. Johnson! Is she really into Mr. Brown like the people think she is?? We got an (text-style:&quot;smear&quot;,&quot;rumble&quot;)[exclusive] interview with her this morning bringing the inside scoop directly into &#39;&#39;YOUR&#39;&#39; living room!.&quot;]
+
+(font:&quot;courier new&quot;)[The crowd errupted in applause as an extravagantly dressed woman pompously walked into frame and sat down.]
+
+(font:&#39;arial&#39;)[&quot;Good //morning// Ms Johnson! How are you on this fine day?&quot;]
+
+(font:&#39;arial&#39;)[&quot;You know, I&#39;ve been just great!&quot;]
+
+(font:&#39;arial&#39;)[&quot;That&#39;s wonderful! So...&quot;]</tw-passagedata><tw-passagedata pid="44" name="Fight" tags="" position="1475,75" size="100,100"></tw-passagedata><tw-passagedata pid="45" name="Flight" tags="" position="1475,200" size="100,100"></tw-passagedata><tw-passagedata pid="46" name="Freeze" tags="tnt" position="1400,325" size="100,100">|txt&gt;[The air grew colder as time slows down.
+
+He came closer, laying into me about..... 
+
+(text-style:&quot;italic&quot;)+(after:5s)[something?]
+
+(after: 6s)[But...]
+(after: 8s)[I couldn&#39;t quite...]
+(after: 11s)[Make it out...]](click: &quot;Make it out...&quot;)[(replace: ?txt)[|txt&gt;[You can&#39;t see clearly, a fog of frost layering every surface
+
+You look at the man, a look of terror permanently etched on his face.
+
+[[idk -&gt; nect tinem]]]]]
+</tw-passagedata><tw-passagedata pid="47" name="look around" tags="golden" position="1325,175" size="100,100">As I was getting my bearings, the man started to run towards me! I could tell he was (text-style:&quot;shudder&quot;)[mad], but what had //I// done!? Scared for my life, my insticts kicked in fast.
+
+[[Fight]]
+
+[[Flight]]
+
+[[Freeze]]</tw-passagedata><tw-passagedata pid="48" name=" Wharf" tags="" position="175,1475" size="100,100"></tw-passagedata><tw-passagedata pid="49" name=" The &quot;Dock&quot;" tags="tnt" position="300,1575" size="100,100">(font:&quot;courier new&quot;)|txt&gt;[He goes further into the yard, an occasional vehicle lumbering industriously by, idly in the early morning darkness. He reaches the begining of (text-colour:yellow)[The Old Dock], water breaking occasionally over the solid concrete portusion pointing out to sea.
+
+He understands.
+
+A siren&#39;s call.
+
+A shimmering mirage,
+a harpoon,
+or a stick...
+
+(after: 12s)[(text-style: &quot;blur&quot;)[And the lumbering deep.]
+(text-style:&quot;blurrier&quot;)+(text-colour:blue)+(text-style:&quot;fade-in-out&quot;) +(after: 18s)[A haze...]]](click: &quot;A haze...&quot;)[(replace: ?txt)[|txt&gt;[A haze takes over his mind, gray anomily grasping ever furthur up the wake.
+
+A chill of a ship runs by;
+
+You&#39;ll Awake]]](click: &quot;You&#39;ll Awake&quot;)+(font: &quot;Times New Roman&quot;)[(replace: ?txt)[|txt&gt;[You will wake up, bed soaked with sea, a taste of salt lingering in the mind.
+
+Your alarm will play apsently with the morning news, and as your mind reels, you&#39;ll barely be able to make out something about a (text-style:&quot;italic&quot;,&quot;fade-in-out&quot;)[sick, NEW] mass trend having something to do with swimming.
+
+You won&#39;t care to look.
+
+[[UNUSED-&gt;Idk]]
+[[UNUSED-&gt;Just trust me, I need story or something]]]]]</tw-passagedata><tw-passagedata pid="50" name="Idk" tags="" position="225,1725" size="100,100"></tw-passagedata><tw-passagedata pid="51" name="Just trust me, I need story or something" tags="" position="375,1725" size="100,100"></tw-passagedata><tw-passagedata pid="52" name=" airport" tags="" position="650,1375" size="100,100"></tw-passagedata><tw-passagedata pid="53" name=" Continue" tags="" position="1250,975" size="100,100"></tw-passagedata><tw-passagedata pid="54" name=" Famine" tags="" position="1250,1100" size="100,100"></tw-passagedata><tw-passagedata pid="55" name=" enter house" tags="" position="775,1500" size="100,100"></tw-passagedata><tw-passagedata pid="56" name=" mailbox" tags="" position="900,1500" size="100,100"></tw-passagedata><tw-passagedata pid="57" name=" nect tinem" tags="" position="1525,325" size="100,100"></tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
