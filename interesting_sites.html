@@ -1,21 +1,11 @@
 ---
-layout: default
+layout: list
 style: list
+tag_list: interesting_sites_tags
 title: Interesting Sites
 ---
 
 <h1>Interesting Sites</h1>
-
-<!-- Generate tag sidebar -->
-<div id="tagSidebar">
-  <menu>
-    <h2>Tags</h2>
-
-    {% include tagSidebarTags.html tags=site.data.interesting_sites_tags %}
-
-    <a onclick="filterSelection('all')">Show all</a>
-  </menu>
-</div>
 
 <!-- Generate each item in the list -->
 {% for item in site.data.interesting_sites %}
@@ -33,9 +23,3 @@ title: Interesting Sites
     </span>
   </div>
 {% endfor %}
-
-<div id="showTags">
-  <a href="#tagSidebar">Jump to Tags</a>
-</div>
-
-<script src="/assets/js/listFilter.js"></script>

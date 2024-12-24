@@ -8,7 +8,7 @@
 
       {% comment %} If the tag has subtags, recurse and loop through it {% endcomment %}
       {% if tag.subtags %}
-        {% include tagSidebarTags.html tags=tag.subtags %}
+        {% include tag_sidebar_tags.html tags=tag.subtags %}
       {% endif %}
 
     </li>

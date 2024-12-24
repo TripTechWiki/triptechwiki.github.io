@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+
+    <!-- Link to Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/{{ page.style }}.css"
+      type="text/css"
+      media="screen" />
+
+  </head>
+
+  <body>
+    {% include sidebar.html %}
+
+      <main>
+      {{ content }}
+
+      <!-- Generate tag sidebar -->
+      <div id="tagSidebar">
+        <menu>
+          <h2>Tags
+        </h2>
+
+          {% comment %} includes cannot have dynamic variables in them, so a temporary variable is used instead {% endcomment %}
+          {% assign tag_list = site.data[page.tag_list] %}
+          {% include tag_sidebar_tags.html tags=tag_list %}
+
+          <a onclick="filterSelection('all')">Show all</a>
+        </menu>
+      </div>
+
+      <div id="showTags">
+        <a href="#tagSidebar">Jump to Tags</a>
+      </div>
+
+      <!-- include the list filter script -->
+      <script src="/assets/js/listFilter.js"></script>
+    </main>
+  </body>
+</html>
