@@ -9,7 +9,7 @@ title: Interesting Sites
 
 <!-- Generate each item in the list -->
 {% for item in site.data.interesting_sites %}
-  <div class="filterItem {{ item.tags | join: " "}}">
+  <div class="filterItem {{ item.tags | join: " " }}">
     <h2>
       <a href={{ item.url }}>{{ item.name }}</a>
     </h2>
