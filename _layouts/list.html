@@ -1,3 +1,5 @@
+{% comment %} This layout is special for pages that need to have a tag sidebar generated to sort list items on that page {% endcomment %}
+{% comment %} IMPORTANT: To use the list layout, a page must have a 'tag_list' variable containing the list of tags! {% endcomment %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -36,7 +38,7 @@
         <a href="#tagSidebar">Jump to Tags</a>
       </div>
 
-      <!-- include the list filter script -->
+      <!-- Include the list filter script -->
       <script src="/assets/js/listFilter.js"></script>
     </main>
   </body>
