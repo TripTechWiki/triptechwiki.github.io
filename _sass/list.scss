@@ -115,11 +115,19 @@ main{
     color: #008A8A;
 }
 
-.tags{
+.tags, .author{
+    display: inline-block;
+
     background: #3D2753;
     border-radius: 5px;
 }
 
 .tags a{
-    margin: 0 0.5ch;
+    margin: 0 5px;
+}
+
+.author{
+    float: right;
+
+    padding: 0 5px;
 }

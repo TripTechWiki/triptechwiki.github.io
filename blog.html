@@ -2,6 +2,7 @@
 layout: list
 style: list
 tag_list: blog_tags
+favicon: blog
 title: The Triptech Blog
 ---
 
@@ -21,5 +22,6 @@ title: The Triptech Blog
         <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
       {% endfor %}
     </span>
+    <span class="author">By: {{ post.author }}</span>
   </div>
 {% endfor %}
