@@ -37,7 +37,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-      style: default
+      style: post
       favicon: blog
       excerpt_separator: <!-- excerpt -->
 

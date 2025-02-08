@@ -1,0 +1,33 @@
+//some small spacing and color styles to make everything look nice
+#tagSidebar a, .tags{
+    padding: 0 0 0 5px;
+}
+
+#tagSidebar a, .tags a{
+    text-decoration: underline;
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+#tagSidebar a:hover, .tags a:hover{
+    color: #008A8A;
+}
+
+.metadata{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags, .author{
+    background: #3D2753;
+    border-radius: 5px;
+}
+
+.author{
+    padding: 0 5px;
+}
+
+.tags a{
+    margin: 0 5px;
+}
