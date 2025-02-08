@@ -16,12 +16,14 @@ title: The Triptech Blog
     </h2>
     <p>{{ post.excerpt }}</p>
 
-    <span class="tags">
-      Tags:
-      {% for tag in post.tags %}
-        <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
-      {% endfor %}
-    </span>
-    <span class="author">By: {{ post.author }}</span>
+    <div class="metadata">
+      <span class="tags">
+        Tags:
+        {% for tag in post.tags %}
+          <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
+        {% endfor %}
+      </span>
+      <span class="author">By: {{ post.author }}</span>
+    </div>
   </div>
 {% endfor %}

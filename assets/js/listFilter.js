@@ -3,6 +3,15 @@
 //initialize the page by showing everything
 filterSelection("all")
 
+//run when the window is loaded (used when coming from another page)
+window.onload = function() {
+  const params = new URLSearchParams(window.location.search); //get parameters from the url
+  const tag = params.get("tag") //parse the parameters
+  if (tag != null) { //check if the tag parameter is present
+    filterSelection(tag); //call the filter function with the passed tag
+  }
+};
+
 //the main filter function
 function filterSelection(filter) {
   var elements, i;
