@@ -10,7 +10,7 @@
     transition: 0.25s;
 }
 
-#tagSidebar a:hover, .tags a:hover{
+#tagSidebar a:hover, .tags a:hover, .tags a:visited:hover{
     color: #008A8A;
 }
 
@@ -30,4 +30,8 @@
 
 .tags a{
     margin: 0 5px;
+}
+
+.tags a:visited{
+    color: #94F5D5;
 }
