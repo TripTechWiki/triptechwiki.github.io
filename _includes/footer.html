@@ -1,5 +1,5 @@
 <footer>
-    <span>Published: {{ page.date | date: "%B %e, %Y" }}</span>
-    <br>
-    <span>Last Modified: {% last_modified_at %}</span>
+  {% comment %} <span>Published: {{ page.date | date: "%B %e, %Y" }}</span>
+          <br> {% endcomment %}
+  <span>Last Modified: {{ page.last_modified_at | date: "%B %e, %Y" }}</span>
 </footer>

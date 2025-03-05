@@ -17,13 +17,19 @@ title: The Triptech Blog
     <p>{{ post.excerpt }}</p>
 
     <div class="metadata">
-      <span class="tags">
-        Tags:
-        {% for tag in post.tags %}
-          <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
-        {% endfor %}
-      </span>
-      <span class="author">By: {{ post.author }}</span>
+      <div class="metadata_line1">
+        <span class="author">By: {{ post.author }}</span>
+        <span class="date">Published: {{ post.date | date: "%B %e, %Y" }}</span>
+      </div>
+      <div class="metadata_line2">
+        <span class="date">Last Modified: {{ post.last_modified_at | date: "%B %e, %Y" }}</span>
+        <span class="tags">
+          Tags:
+          {% for tag in post.tags %}
+            <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
+          {% endfor %}
+        </span>
+      </div>
     </div>
   </div>
 {% endfor %}
