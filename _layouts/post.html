@@ -1,5 +1,5 @@
-{% comment %} This layout is the same as the defalut layout, but the title of the page is added as an <h1> before everything in <main> {% endcomment %}
-{% comment %} This layout is intened for posts to get around problems displaying the excerpt {% endcomment %}
+{% comment %} This layout is the same as the default layout, but the title of the page is added as an <h1> before everything in <main> {% endcomment %}
+{% comment %} This layout is intended for posts to get around problems displaying the excerpt {% endcomment %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,5 +30,7 @@
         <span class="author">By: {{ page.author }}</span>
       </div>
     </main>
+    
+    {% include footer.html %}
   </body>
 </html>

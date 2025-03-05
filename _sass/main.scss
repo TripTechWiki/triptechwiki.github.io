@@ -14,7 +14,7 @@ body{
     color: #edfad2;
 }
 
-main{
+main, footer{
     min-width: 495px;
     max-width: 60vw;
 
@@ -54,7 +54,7 @@ h1, h2{
 }
 
 @media (width <= 550px) {
-    main{
+    main, footer{
         min-width: 90vw;
     }
 }
