@@ -16,15 +16,28 @@
 
 .metadata{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.metadata_line1, .metadata_line2{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.tags, .author{
-    background: #3D2753;
-    border-radius: 5px;
+.metadata_line2{
+    flex-direction: row-reverse;
 }
 
-.author{
+.tags, .author, .date{
+    background: #3D2753;
+    border-radius: 5px;
+
+    margin: 2.5px;
+}
+
+.author, .date{
     padding: 0 5px;
 }
 

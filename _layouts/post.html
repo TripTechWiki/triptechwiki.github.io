@@ -1,5 +1,5 @@
-{% comment %} This layout is the same as the defalut layout, but the title of the page is added as an <h1> before everything in <main> {% endcomment %}
-{% comment %} This layout is intened for posts to get around problems displaying the excerpt {% endcomment %}
+{% comment %} This layout is the same as the default layout, but the title of the page is added as an <h1> before everything in <main> {% endcomment %}
+{% comment %} This layout is intended for posts to get around problems displaying the excerpt {% endcomment %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,13 +21,19 @@
       <h1>{{ page.title }}</h1>
       {{ content }}
       <div class="metadata">
-        <span class="tags">
-          Tags:
-          {% for tag in page.tags %}
-            <a href="/blog.html?tag={{ tag }}">{{ tag }}</a>
-          {% endfor %}
-        </span>
-        <span class="author">By: {{ page.author }}</span>
+        <div class="metadata_line1">
+          <span class="author">By: {{ page.author }}</span>
+          <span class="date">Published: {{ page.date | date: "%B %e, %Y" }}</span>
+        </div>
+        <div class="metadata_line2">
+          <span class="date">Last Modified: {{ page.last_modified_at | date: "%B %e, %Y" }}</span>
+          <span class="tags">
+            Tags:
+            {% for tag in page.tags %}
+              <a href="/blog.html?tag={{ tag }}">{{ tag }}</a>
+            {% endfor %}
+          </span>
+        </div>
       </div>
     </main>
   </body>
