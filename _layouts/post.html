@@ -20,21 +20,19 @@
     <main>
       <h1>{{ page.title }}</h1>
       {{ content }}
+
       <div class="metadata">
-        <div class="metadata_line1">
-          <span class="author">By: {{ page.author }}</span>
-          <span class="date">Published: {{ page.date | date: "%B %e, %Y" }}</span>
-        </div>
-        <div class="metadata_line2">
-          <span class="date">Last Modified: {{ page.last_modified_at | date: "%B %e, %Y" }}</span>
-          <span class="tags">
-            Tags:
-            {% for tag in page.tags %}
-              <a href="/blog.html?tag={{ tag }}">{{ tag }}</a>
-            {% endfor %}
-          </span>
-        </div>
+        <span class="author">By: {{ page.author }}</span>
+        <span class="tags">
+          Tags:
+          {% for tag in page.tags %}
+            <a href="/blog.html?tag={{ tag }}">{{ tag }}</a>
+          {% endfor %}
+        </span>
+        <span class="date">Published: {{ page.date | date: "%B %e, %Y" }}</span>
+        <span class="date">Last Modified: {{ page.last_modified_at | date: "%B %e, %Y" }}</span>
       </div>
+
     </main>
   </body>
 </html>

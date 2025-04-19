@@ -6,8 +6,6 @@ favicon: interesting_sites
 title: Interesting Sites
 ---
 
-<h1>Interesting Sites</h1>
-
 <!-- Generate each item in the list -->
 {% for item in site.data.interesting_sites %}
   <div class="filterItem {{ item.tags | join: " " }}">

@@ -6,8 +6,6 @@ favicon: blog
 title: The Triptech Blog
 ---
 
-<h1>The Triptech Blog</h1>
-
 <!-- Generate each item in the list -->
 {% for post in site.posts %}
   <div class="filterItem {{ post.tags | join: " " }}">
@@ -17,19 +15,16 @@ title: The Triptech Blog
     <p>{{ post.excerpt }}</p>
 
     <div class="metadata">
-      <div class="metadata_line1">
-        <span class="author">By: {{ post.author }}</span>
-        <span class="date">Published: {{ post.date | date: "%B %e, %Y" }}</span>
-      </div>
-      <div class="metadata_line2">
-        <span class="date">Last Modified: {{ post.last_modified_at | date: "%B %e, %Y" }}</span>
-        <span class="tags">
-          Tags:
-          {% for tag in post.tags %}
-            <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
-          {% endfor %}
-        </span>
-      </div>
+      <span class="author">By: {{ post.author }}</span>
+      <span class="tags">
+        Tags:
+        {% for tag in post.tags %}
+          <a onclick="filterSelection('{{ tag }}')">{{ tag }}</a>
+        {% endfor %}
+      </span>
+      <span class="date">Published: {{ post.date | date: "%B %e, %Y" }}</span>
+      <span class="date">Last Modified: {{ post.last_modified_at | date: "%B %e, %Y" }}</span>
     </div>
+
   </div>
 {% endfor %}
