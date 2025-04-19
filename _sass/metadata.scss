@@ -16,18 +16,8 @@
 
 .metadata{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-}
-
-.metadata_line1, .metadata_line2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.metadata_line2{
-    flex-direction: row-reverse;
+    align-items: flex-start;
 }
 
 .tags, .author, .date{
