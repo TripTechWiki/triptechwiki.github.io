@@ -35,6 +35,10 @@ plugins:
 last-modified-at:
     date-format: '%B %e, %Y' #https://strftime.net/
 
+#The output path for posts. See https://jekyllrb.com/docs/permalinks/
+permalink: /blog/:categories/:year/:month/:day/:title:output_ext
+
+#The default front matter values
 defaults:
   -
     scope:
