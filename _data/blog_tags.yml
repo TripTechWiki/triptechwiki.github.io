@@ -1,5 +1,7 @@
+- name: hacks
 - name: math
 - name: new_year
+- name: open_source
 - name: poetry
 - name: reviews
   subtags:

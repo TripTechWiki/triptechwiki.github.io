@@ -1,3 +1,9 @@
+---
+author: Golden_Wither
+title: Undermining Obsidian
+tags: hacks open_source
+---
+
 Well…not really. More like finding ways around file syncing without needing a paid account.
 
 <!-- excerpt -->
