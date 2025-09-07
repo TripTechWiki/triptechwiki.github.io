@@ -23,19 +23,19 @@
 
 - name: Wolfram MathWorld Elementary Cellular Automaton
   url: https://mathworld.wolfram.com/ElementaryCellularAutomaton.html
-  description: An enciclopedia for the elementary cellular automaton that fully lays out all its rules and results.
+  description: An encyclopedia for the elementary cellular automaton that fully lays out all its rules and results.
   tags:
     - math
     - cellular_automata
 
-- name: Elementary Cellular Automatan Online
+- name: Elementary Cellular Automaton Online
   url: http://devinacker.github.io/celldemo/
   description: A bare bones site to simulate the elementary cellular automaton.
   tags:
     - math
     - cellular_automata
 
-- name: 3D Cellular Automatan
+- name: 3D Cellular Automaton
   url: http://cubes.io/
   description: A 3D version of the elementary cellular automaton, with many settings to choose from.
   tags:
@@ -44,28 +44,28 @@
 
 - name: Polyhedra Viewer
   url: https://polyhedra.tessera.li/
-  description: 
+  description: A visualizer for the relationships between the convex, regular-faced polyhedra.
   tags:
     - math
     - geometry
 
 - name: Seifert View
   url: https://vanwijk.win.tue.nl/seifertview/
-  description: 
+  description: A small program for visualizing seifert surfaces.
   tags:
     - math
     - geometry
 
 - name: Strange Attractor Generator
   url: https://hypatiastudio.com/attractors/
-  description: 
+  description: Generates random strange attractors of various types.
   tags:
     - math
     - geometry
 
 - name: Online Fractal Generator
   url: http://usefuljs.net/fractals/
-  description: 
+  description: A simple online visualizer for several common fractals.
   tags:
     - math
     - geometry
@@ -73,7 +73,7 @@
 
 - name: Visions of Chaos
   url: https://softology.pro/voc.htm
-  description: 
+  description: The absolute best software for generating and exploring fractals, cellular automatons, and so much more.
   tags:
     - math
     - geometry
@@ -100,7 +100,27 @@
     - math
     - graphers
 
+- name: Graphviz
+  url: https://www.graphviz.org/
+  description: A program that uses the powerful DOT language to represent and display diagrams of abstract graphs and networks.
+  tags:
+    - math
+    - graphers
+
+- name: WebGraphviz
+  url: http://www.webgraphviz.com/
+  description: The same as Graphviz, but in the browser!
+  tags:
+    - math
+    - graphers
+
 ##### Music #####
+
+- name: Wavetapper by Frums
+  url: https://exagraphica.github.io/Wavetapper/
+  description: An interactive web version of the video for Wavetapper by Frums.
+  tags:
+    - music
 
 - name: Chrome Music Lab
   url: https://musiclab.chromeexperiments.com/
@@ -110,22 +130,22 @@
     - music_making
 
 - name: Incredibox
-  url: https://www.incredibox.com/demo/v3
-  description: 
+  url: https://www.incredibox.com/demo/
+  description: A fun drag-and-drop music game based on beatboxing and short pre-made loops.
   tags:
     - music
     - music_making
 
 - name: Wolfram Tones
   url: http://tones.wolfram.com/generate
-  description: 
+  description: A simple algorithmic music generator from 2005.
   tags:
     - music
     - music_making
 
 - name: Beep Box
   url: https://beepbox.co/
-  description: 
+  description: A simple online midi-compatible piano roll composer.
   tags:
     - music
     - music_making
@@ -238,7 +258,7 @@
   tags:
     - tools
     - text_generators
-    - encryption
+    - cryptography
 
 - name: Content-Aware Scaling
   url: https://shhnowisnottheti.me/content-aware-scaling/
@@ -249,10 +269,17 @@
 
 - name: Cryptii Encryptor
   url: https://cryptii.com/
-  description: Modular text encryption and decryption online
+  description: Modular text encryption and decryption online.
   tags:
     - tools
-    - encryption
+    - cryptography
+
+- name: dCode
+  url: https://www.dcode.fr/en
+  description: 
+  tags:
+    - tools
+    - cryptography
 
 - name: Gear Generator
   url: https://geargenerator.com/
@@ -287,6 +314,14 @@
   description: 
   tags:
     - zome_tools
+
+### Humor ###
+
+- name: Yesterday's Print
+  url: https://yesterdaysprint.tumblr.com/
+  description: 
+  tags:
+    - humor
 
 # - name: 
 #   url: 
