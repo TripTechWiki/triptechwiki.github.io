@@ -8,3 +8,5 @@
   subtags:
    - name: movies
 - name: writing
+  subtags:
+   - name: blognov
