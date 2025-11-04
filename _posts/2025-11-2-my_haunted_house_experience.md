@@ -1,7 +1,7 @@
 ---
 author: Golden_Wither
 title: My Haunted House Experience
-tags: attractions blognov
+tags: attractions halloween blognov
 ---
 
 A couple of weeks ago (on Oct 14th), I visited my first haunted house! I really didn't know what to expect, but after going through, I honestly think that the anticipation of what would happen was scarier than the actual attraction.
