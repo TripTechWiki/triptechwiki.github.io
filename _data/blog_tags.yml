@@ -6,10 +6,12 @@
 - name: new_year
 - name: open_source
 - name: poetry
+  subtags:
+    - name: shaped
 - name: reviews
   subtags:
-   - name: anime
-   - name: movies
+    - name: anime
+    - name: movies
 - name: writing
   subtags:
-   - name: blognov
+    - name: blognov
