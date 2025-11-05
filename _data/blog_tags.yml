@@ -8,6 +8,7 @@
 - name: poetry
   subtags:
     - name: shaped
+- name: reading
 - name: reviews
   subtags:
     - name: anime
