@@ -4,6 +4,10 @@
 - name: hobbies
 - name: life
 - name: math
+- name: media
+  subtags:
+    - name: sports
+    - name: youtube
 - name: new_year
 - name: open_source
 - name: poetry

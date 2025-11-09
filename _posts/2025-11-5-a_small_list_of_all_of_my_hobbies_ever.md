@@ -54,10 +54,11 @@ Computer Things (excluding just games I play):
 - Minecraft Texture Pack Development
 - YouTube Video Recording/Editing
 - Homestuck
+- Linux
 
 That's all I can think of for now, but I might come back and add more in the future.
 
 ---
 
-Word Count: 133\
-Running Total: 1227
+Word Count: 134\
+Running Total: 1228
