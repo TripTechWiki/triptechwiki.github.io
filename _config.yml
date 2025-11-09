@@ -21,7 +21,7 @@
 title: TripTech Wiki
 email: triptechofficial@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The offical wikipedia for everything TripTech!
+  The official wikipedia for everything TripTech!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://triptechwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  TripTechWiki
