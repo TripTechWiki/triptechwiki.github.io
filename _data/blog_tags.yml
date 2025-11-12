@@ -17,6 +17,7 @@
 - name: reviews
   subtags:
     - name: anime
+    - name: games
     - name: movies
 - name: writing
   subtags:
