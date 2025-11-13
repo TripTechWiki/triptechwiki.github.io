@@ -9,6 +9,9 @@
     - name: sports
     - name: youtube
 - name: new_year
+- name: news
+  subtags:
+    - name: blog
 - name: open_source
 - name: poetry
   subtags:

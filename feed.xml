@@ -3,13 +3,20 @@ layout:
 ---
 
 <?xml version="1.0" encoding="UTF-8"?> <!-- https://jekyllcodex.org/without-plugin/rss-feed/ -->
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
-    <image>assets\images\missing.png</image>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>{{ site.url }}{{ site.baseurl }}/assets/images/missing.png</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}</link>
+      <width>144</width>
+      <height>144</height>
+      <description>TripTech Logo</description>
+    </image>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
@@ -18,7 +25,13 @@ layout:
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.email | xml_escape }} ({{ post.author | xml_escape }})</author>
         <description>{{ post.excerpt | xml_escape }}</description>
-        <image>assets\images\missing.png</image>
+        <media:content 
+          url="{{ site.url }}{{ site.baseurl }}/assets/images/missing.png" 
+          type="image/png" 
+          medium="image">
+          <media:title>TripTech Wiki</media:title>
+          <media:description>TripTech Logo</media:description>
+        </media:content>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
