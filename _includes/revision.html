@@ -1,0 +1,9 @@
+{% assign target_page = include.page_path | default: page.path %}
+
+<span
+  class="revision"
+  data-repo="{{ site.github.repository_nwo }}"
+  data-page="{{ target_page }}">
+  Loading revision info…
+</span>
+<script src="/assets/js/revision.js"></script>

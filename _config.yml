@@ -24,16 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   The official wikipedia for everything TripTech!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://triptechwiki.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  TripTechWiki
+github_username: TripTechWiki
 
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-last-modified-at #https://github.com/gjtorikian/jekyll-last-modified-at
-
-#The default date format to be used
-last-modified-at:
-    date-format: '%B %e, %Y' #https://strftime.net/
+  - jekyll-github-metadata #Required for revisions.js (https://cogitorium.info/2021/02/jekyll-github-revision)
 
 #The output path for posts. See https://jekyllrb.com/docs/permalinks/
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext

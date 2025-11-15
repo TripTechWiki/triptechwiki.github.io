@@ -12,7 +12,7 @@ layout:
     <image>
       <url>{{ site.url }}{{ site.baseurl }}/assets/images/missing.png</url>
       <title>{{ site.title | xml_escape }}</title>
-      <link>{{ site.url }}{{ site.baseurl }}</link>
+      <link>{{ site.url }}{{ site.baseurl }}/</link>
       <width>144</width>
       <height>144</height>
       <description>TripTech Logo</description>
