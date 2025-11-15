@@ -29,7 +29,10 @@ github_username: TripTechWiki
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-github-metadata #Required for revisions.js (https://cogitorium.info/2021/02/jekyll-github-revision)
+  - jekyll-github-metadata #Required for revision.js (https://cogitorium.info/2021/02/jekyll-github-revision)
+
+#repository settings for jekyll-github-metadata
+repository: TripTechWiki/triptechwiki.github.io
 
 #The output path for posts. See https://jekyllrb.com/docs/permalinks/
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
