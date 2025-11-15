@@ -23,7 +23,7 @@ title: The Triptech Blog
         {% endfor %}
       </span>
       <span class="date">Published: {{ post.date | date: "%B %e, %Y" }}</span>
-      <span class="date">Last Modified: {{ post.last_modified_at | date: "%B %e, %Y" }}</span>
+      <span class="date">{% include revision.html page_path=post.path %}</span>
     </div>
 
   </div>

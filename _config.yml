@@ -29,11 +29,7 @@ github_username: TripTechWiki
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-last-modified-at #https://github.com/gjtorikian/jekyll-last-modified-at
-
-#The default date format to be used
-last-modified-at:
-    date-format: '%B %e, %Y' #https://strftime.net/
+  - jekyll-github-metadata #Required for revisions.js (https://cogitorium.info/2021/02/jekyll-github-revision)
 
 #The output path for posts. See https://jekyllrb.com/docs/permalinks/
 permalink: /blog/:categories/:year/:month/:day/:title:output_ext
