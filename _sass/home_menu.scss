@@ -1,8 +1,8 @@
-h1{
+h1 {
     text-align: center;
 }
 
-menu{
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +19,13 @@ menu{
     text-align: center;
 }
 
-@media (width <= 550px) {
-    menu{
+@media (width <=550px) {
+    menu {
         min-width: 90vw;
     }
 }
 
-menu a{
+nav a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,11 +48,11 @@ menu a{
     transition: 0.5s;
 }
 
-menu a:hover{
+nav a:hover {
     transform: scale(1.1);
 }
 
-menu div{
+nav div {
     font-weight: bold;
     font-size: 1.7em;
 
@@ -66,6 +66,6 @@ menu div{
     transition: 0.5s;
 }
 
-menu a:hover div{
+nav a:hover div {
     transform: scale(1.1);
 }
