@@ -1,22 +1,32 @@
 ##### Blogs #####
 
+- name: TodePond
+  url: https://www.todepond.com
+  description:
+  tags:
+    - blog
+    - personal_page
+
 - name: Beep Bird
   url: https://www.beepbird.net
   description:
   tags:
     - blog
+    - personal_page
 
 - name: marea
   url: https://marea.neocities.org
   description:
   tags:
     - blog
+    - personal_page
 
 - name: Adam Parkzer
   url: https://parkzer.com
   description: The blog of one of the oddest people to have ever lived.
   tags:
     - blog
+    - personal_page
 
 ##### Math #####
 
@@ -177,6 +187,29 @@
     - music
     - music_making
 
+##### Audio #####
+
+- name: Virtual Barber Shop
+  url: https://www.youtube.com/watch?v=IUDTlvagjJA
+  description:
+  tags:
+    - audio
+    - spatial_audio
+
+- name: The Tucker Zone
+  url: https://www.youtube.com/watch?v=3txhT2ncNOU
+  description:
+  tags:
+    - audio
+    - spatial_audio
+
+- name: Nothing to See, Hear
+  url: https://www.youtube.com/watch?v=w5ZVTqaUMnE
+  description:
+  tags:
+    - audio
+    - spatial_audio
+
 ##### Stereograms #####
 
 - name: Hidden 3D
@@ -197,6 +230,12 @@
   tags:
     - stereogram
     - ascii
+
+- name: "The Snowman: A Stereogram Animation"
+  url: https://www.youtube.com/watch?v=ArWY-Ck-CPc
+  demonstration: A very old, yet very cool stereogram animation.
+  tags:
+    - stereogram
 
 ##### Personal Pages #####
 
@@ -257,6 +296,13 @@
 
 ##### Tools #####
 
+- name: Audio Alter
+  url: https://audioalter.com
+  description: A collection of easy-to-use web tools for all your audio files.
+  tags:
+    - tool
+    - audio_tool
+
 - name: Picture to People
   url: http://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html
   description: 
@@ -285,35 +331,35 @@
   tags:
     - tool
     - text_generator
-    - cryptography
+    - cryptography_tool
 
 - name: Content-Aware Scaling
   url: https://shhnowisnottheti.me/content-aware-scaling/
   description: 
   tags:
     - tool
-    - image
+    - image_tool
 
 - name: Cryptii Encryptor
   url: https://cryptii.com/
   description: Modular text encryption and decryption online.
   tags:
     - tool
-    - cryptography
+    - cryptography_tool
 
 - name: dCode
   url: https://www.dcode.fr/en
   description: 
   tags:
     - tool
-    - cryptography
+    - cryptography_tool
 
 - name: Gear Generator
   url: https://geargenerator.com/
   description: 
   tags:
     - tool
-    - gear
+    - gear_tool
 
 - name: Logic Gate Builder
   url: https://logic.ly/demo
@@ -334,15 +380,17 @@
   url: https://www.zometool.com/
   description:
   tags:
+    - math
     - zome_tool
 
 - name: Grey Zome
   url: https://greyzome.com/
   description: Wholesale Zome Tool parts.
   tags:
+    - math
     - zome_tool
 
-### Humor ###
+##### Humor #####
 
 - name: Yesterday's Print
   url: https://yesterdaysprint.tumblr.com/

@@ -1,8 +1,10 @@
 - name: art
 - name: ascii
+- name: audio
+  subtags:
+    - name: spacial_audio
 - name: blog
 - name: demonstration
-- name: gear
 - name: humor
 - name: logic_gate
 - name: math
@@ -21,7 +23,9 @@
 - name: stereogram
 - name: tool
   subtags:
-    - name: cryptography
-    - name: image
+    - name: audio_tool
+    - name: cryptography_tool
+    - name: gear_tool
+    - name: image_tool
     - name: text_generator
 - name: zome_tool
