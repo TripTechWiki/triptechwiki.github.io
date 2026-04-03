@@ -1,3 +1,23 @@
+##### Blogs #####
+
+- name: Beep Bird
+  url: https://www.beepbird.net
+  description:
+  tags:
+    - blog
+
+- name: marea
+  url: https://marea.neocities.org
+  description:
+  tags:
+    - blog
+
+- name: Adam Parkzer
+  url: https://parkzer.com
+  description: The blog of one of the oddest people to have ever lived.
+  tags:
+    - blog
+
 ##### Math #####
 
 - name: Loki 3 Flexagons
@@ -5,21 +25,21 @@
   description: Dozens of different flexagons, with downloads and folding instructions for almost all of them. Most flexagons even have quite a bit of documentation about them, including observations and notation.
   tags:
     - math
-    - flexagons
+    - flexagon
 
 - name: The Flexagon Portal
   url: https://www.flexagon.net/
   description: Guides for a few flexagons, including the dodecahexaflexagon (a hexaflexagon with 12 sides).
   tags:
     - math
-    - flexagons
+    - flexagon
 
 - name: The Hexahexaflexagon
   url: http://www.solipsys.co.uk/cgi-bin/sews.py?Hexahexaflexagon
   description: A quick and easy guide to making a hexahexaflexagon (a hexaflexagon with 6 sides).
   tags:
     - math
-    - flexagons
+    - flexagon
 
 - name: Wolfram MathWorld Elementary Cellular Automaton
   url: https://mathworld.wolfram.com/ElementaryCellularAutomaton.html
@@ -69,7 +89,7 @@
   tags:
     - math
     - geometry
-    - fractals
+    - fractal
 
 - name: Visions of Chaos
   url: https://softology.pro/voc.htm
@@ -77,42 +97,42 @@
   tags:
     - math
     - geometry
-    - fractals
+    - fractal
 
 - name: Big Number Calculator
   url: https://www.ttmath.org/online_calculator
   description: A calculator capable of working with very large numbers.
   tags:
     - math
-    - calculators
+    - calculator
 
 - name: 3D Grapher
   url: http://grapher.mathpix.com/
   description: 
   tags:
     - math
-    - graphers
+    - grapher
 
 - name: Network Graph Generator
   url: https://graphonline.ru/en/
   description: 
   tags:
     - math
-    - graphers
+    - grapher
 
 - name: Graphviz
   url: https://www.graphviz.org/
   description: A program that uses the powerful DOT language to represent and display diagrams of abstract graphs and networks.
   tags:
     - math
-    - graphers
+    - grapher
 
 - name: WebGraphviz
   url: http://www.webgraphviz.com/
   description: The same as Graphviz, but in the browser!
   tags:
     - math
-    - graphers
+    - grapher
 
 ##### Music #####
 
@@ -150,25 +170,32 @@
     - music
     - music_making
 
+- name: ButtonBass
+  url: https://www.buttonbass.com
+  description:
+  tags:
+    - music
+    - music_making
+
 ##### Stereograms #####
 
 - name: Hidden 3D
   url: https://hidden-3d.com/
   description: 
   tags:
-    - stereograms
+    - stereogram
 
 - name: Stereogram Tutorial
   url: https://www.ime.usp.br/~otuyama/stereogram/basic/index.html
   description: 
   tags:
-    - stereograms
+    - stereogram
 
 - name: ASCII Stereogram Creator
   url: http://lightsecond.com/ElmAutostereogram/#TabEdit
   description: 
   tags:
-    - stereograms
+    - stereogram
     - ascii
 
 ##### Personal Pages #####
@@ -177,23 +204,23 @@
   url: http://math.hws.edu/eck/js/index.html
   description: 
   tags:
-    - personal_pages
-    - demonstrations
+    - personal_page
+    - demonstration
     - math
     - geometry
-    - fractals
-    - cellular_automata
+    - fractal
+    - cellular_automat
     - art
 
 - name: Science vs Magic
   url: https://sciencevsmagic.net/
   description: A few *extremely* well made geometry demonstrations.
   tags:
-    - personal_pages
-    - demonstrations
+    - personal_page
+    - demonstration
     - math
     - geometry
-    - fractals
+    - fractal
     - cellular_automata
     - art
 
@@ -201,8 +228,8 @@
   url: http://vladgotlib.com/
   description: 
   tags:
-    - personal_pages
-    - demonstrations
+    - personal_page
+    - demonstration
     - math
     - geometry
 
@@ -212,7 +239,7 @@
   url: https://omgspace.net/
   description: 
   tags:
-    - demonstrations
+    - demonstration
 
 ##### Art #####
 
@@ -234,86 +261,86 @@
   url: http://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html
   description: 
   tags:
-    - tools
-    - text_generators
+    - tool
+    - text_generator
 
 - name: Cool Text
   url: https://cooltext.com/
   description: 
   tags:
-    - tools
-    - text_generators
+    - tool
+    - text_generator
 
 - name: ASCII Font Generator
   url: http://patorjk.com/software/taag/
   description: 
   tags:
-    - tools
-    - text_generators
+    - tool
+    - text_generator
     - ascii
 
 - name: Coldplay Album Cover Generator
   url: http://ditonus.com/coldcode/
   description:
   tags:
-    - tools
-    - text_generators
+    - tool
+    - text_generator
     - cryptography
 
 - name: Content-Aware Scaling
   url: https://shhnowisnottheti.me/content-aware-scaling/
   description: 
   tags:
-    - tools
-    - images
+    - tool
+    - image
 
 - name: Cryptii Encryptor
   url: https://cryptii.com/
   description: Modular text encryption and decryption online.
   tags:
-    - tools
+    - tool
     - cryptography
 
 - name: dCode
   url: https://www.dcode.fr/en
   description: 
   tags:
-    - tools
+    - tool
     - cryptography
 
 - name: Gear Generator
   url: https://geargenerator.com/
   description: 
   tags:
-    - tools
-    - gears
+    - tool
+    - gear
 
 - name: Logic Gate Builder
   url: https://logic.ly/demo
   description: 
   tags:
-    - tools
-    - logic_gates
+    - tool
+    - logic_gate
 
 - name: Universal LPC Spritesheet Character Generator
   url: https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/
   description: 
   tags:
-    - tools
+    - tool
 
 ##### Misc #####
 
-- name: Zome Tools
+- name: Zome Tool
   url: https://www.zometool.com/
-  description: 
+  description:
   tags:
-    - zome_tools
+    - zome_tool
 
 - name: Grey Zome
   url: https://greyzome.com/
-  description: 
+  description: Wholesale Zome Tool parts.
   tags:
-    - zome_tools
+    - zome_tool
 
 ### Humor ###
 

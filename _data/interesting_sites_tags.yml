@@ -1,25 +1,27 @@
 - name: art
 - name: ascii
-- name: demonstrations
-- name: gears
+- name: blog
+- name: demonstration
+- name: gear
 - name: humor
-- name: logic_gates
+- name: logic_gate
 - name: math
   subtags:
-    - name: calculators
+    - name: calculator
     - name: cellular_automata
-    - name: flexagons
+    - name: flexagon
     - name: geometry
       subtags:
-        - name: fractals
-    - name: graphers
+        - name: fractal
+    - name: grapher
 - name: music
   subtags:
     - name: music_making
-- name: personal_pages
-- name: stereograms
-- name: tools
+- name: personal_page
+- name: stereogram
+- name: tool
   subtags:
     - name: cryptography
-    - name: text_generators
-- name: zome_tools
+    - name: image
+    - name: text_generator
+- name: zome_tool
