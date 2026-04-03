@@ -195,6 +195,7 @@
   tags:
     - audio
     - spatial_audio
+  warning: audio
 
 - name: The Tucker Zone
   url: https://www.youtube.com/watch?v=3txhT2ncNOU
@@ -202,6 +203,7 @@
   tags:
     - audio
     - spatial_audio
+  warning: audio
 
 - name: Nothing to See, Hear
   url: https://www.youtube.com/watch?v=w5ZVTqaUMnE
@@ -209,6 +211,7 @@
   tags:
     - audio
     - spatial_audio
+  warning: audio
 
 ##### Stereograms #####
 
@@ -233,9 +236,10 @@
 
 - name: "The Snowman: A Stereogram Animation"
   url: https://www.youtube.com/watch?v=ArWY-Ck-CPc
-  demonstration: A very old, yet very cool stereogram animation.
+  description: A very old, yet very cool stereogram animation.
   tags:
     - stereogram
+  warning: audio
 
 ##### Personal Pages #####
 

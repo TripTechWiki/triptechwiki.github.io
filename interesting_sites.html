@@ -12,6 +12,15 @@ title: Interesting Sites
     <h2>
       <a href={{ item.url }}>{{ item.name }}</a>
     </h2>
+    {% if item.warning == "audio" %}
+      <p>
+        <em>
+          <strong>Warning:</strong>
+          Clicking this link may cause audio to play automatically.
+        </em>
+      </p>
+    {% endif %}
+
     <p>{{ item.description | markdownify }}</p>
 
     <span class="tags">
