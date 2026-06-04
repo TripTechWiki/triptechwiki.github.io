@@ -5,7 +5,9 @@ tags: life new_year
 ---
 
 It has officially been one year since the TripTech blog began! In that time, the blog has seen numerous improvements, such as better formatted pages, [an RSS feed](/blog/2025/11/12/blog_update_rss_feed.html), better last modified dates, and more! This year also held [the first BlogNov](/blog/2025/11/01/blog_nov_2025.html), whose success is rather subjective<sup>[citation needed]</sup>.
+
 <!-- excerpt -->
+
 I didn't have much of a plan for what to put in this post, so I'll write down some goals so that I'm held responsible by the void.
 
 This year, I would like to track my eating habits on my phone and perhaps also eat a little healthier. I don't think I'm necessarily eating *un*healthily, but I think I could certainly have a more varied diet. I'll try it for about a month or so to see how it goes.
