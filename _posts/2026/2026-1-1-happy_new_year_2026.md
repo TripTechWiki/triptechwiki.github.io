@@ -4,7 +4,7 @@ title: Happy New Year 2026!
 tags: life new_year
 ---
 
-It has officially been one year since the TripTech blog began! In that time, the blog has seen numerous improvements, such as better formatted pages, [an RSS feed](/blog/2025/11/12/blog_update_rss_feed.html), better last modified dates, and more! This year also held [the first BlogNov](/blog/2025/11/01/blog_nov_2025.html), whose success is rather subjective<sup>[citation needed]</sup>.
+It has officially been one year since the TripTech blog began! In that time, the blog has seen numerous improvements, such as better formatted pages, [an RSS feed](/blog/2025/11/12/blog_update_rss_feed.html), better last modified dates, and more! This year also held [the first BlogNov](/blog/2025/11/01/blog_nov_2025.html), [whose success is rather subjective](/blog/2026/05/24/blognov_2025_reflection.html).
 
 <!-- excerpt -->
 
