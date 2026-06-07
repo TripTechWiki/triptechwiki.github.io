@@ -14,11 +14,11 @@
     - blog
     - personal_page
 
-- name: marea
-  url: https://marea.neocities.org
+- name: Fyberverse
+  url: https://artifyber.xyz
   description:
   tags:
-    - blog
+    - art
     - personal_page
 
 - name: Adam Parkzer

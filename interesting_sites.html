@@ -6,11 +6,51 @@ favicon: interesting_sites
 title: Interesting Sites
 ---
 
-<!-- Generate each item in the list -->
+<!-- Button Collection -->
+<div class="filterItem">
+  <h2>Button Collection</h2>
+
+  {% for item in site.data.interesting_sites_buttons %}
+    <a target="_blank" href={{ item.url }}>
+      <img
+        src=
+        {% assign src_prefix = item.img_src | slice: 0, 4 %}
+        {% if src_prefix == "http" %}
+        {{ item.img_src }}
+        {% else %}
+        /assets/images/buttons/{{ item.img_src }}
+        {% endif %}
+        alt="{{ item.alt }}">
+    </a>
+  {% endfor %}
+
+</div>
+
+<!-- Stamp Collection -->
+<div class="filterItem">
+  <h2>Stamp Collection</h2>
+
+  {% for item in site.data.interesting_sites_stamps %}
+    <a target="_blank" href={{ item.url }}>
+      <img
+        src=
+        {% assign src_prefix = item.img_src | slice: 0, 4 %}
+        {% if src_prefix == "http" %}
+        {{ item.img_src }}
+        {% else %}
+        /assets/images/stamps/{{ item.img_src }}
+        {% endif %}
+        alt="{{ item.alt }}">
+    </a>
+  {% endfor %}
+</div>
+
+<!-- Interesting Sites -->
+{% comment %} Generate each item in the list {% endcomment %}
 {% for item in site.data.interesting_sites %}
   <div class="filterItem {{ item.tags | join: " " }}">
     <h2>
-      <a href={{ item.url }}>{{ item.name }}</a>
+      <a target="_blank" href={{ item.url }}>{{ item.name }}</a>
     </h2>
     {% if item.warning == "audio" %}
       <p>
