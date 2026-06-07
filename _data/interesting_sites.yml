@@ -14,18 +14,11 @@
     - blog
     - personal_page
 
-- name: spax.zone
-  url: https://spax.zone
+- name: Fyberverse
+  url: https://artifyber.xyz
   description:
   tags:
-    - blog
-    - personal_page
-
-- name: marea
-  url: https://marea.neocities.org
-  description:
-  tags:
-    - blog
+    - art
     - personal_page
 
 - name: Adam Parkzer
